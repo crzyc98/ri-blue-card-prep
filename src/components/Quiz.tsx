@@ -87,7 +87,7 @@ export default function Quiz() {
           <button onClick={startQuiz} className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2.5 rounded-xl font-semibold transition-colors text-sm">
             Retake Quiz
           </button>
-          <button onClick={() => setQuizStarted(false)} className="dark:bg-slate-700 bg-slate-200 dark:text-slate-200 text-slate-700 px-6 py-2.5 rounded-xl font-semibold dark:hover:bg-slate-600 hover:bg-slate-300 transition-colors text-sm">
+          <button onClick={() => { setQuizStarted(false); setShowResults(false); }} className="dark:bg-slate-700 bg-slate-200 dark:text-slate-200 text-slate-700 px-6 py-2.5 rounded-xl font-semibold dark:hover:bg-slate-600 hover:bg-slate-300 transition-colors text-sm">
             Back to Setup
           </button>
         </div>

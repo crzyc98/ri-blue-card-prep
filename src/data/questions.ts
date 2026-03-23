@@ -30,7 +30,7 @@ export const questions: Question[] = [
     question: 'In Rhode Island, what is the minimum age to purchase a handgun or handgun ammunition?',
     options: ['18 years old', '19 years old', '21 years old', '25 years old'],
     answer: '21 years old',
-    explanation: 'Rhode Island law requires you to be 21 years of age or older to purchase a handgun or handgun ammunition.',
+    explanation: 'Under Rhode Island General Laws (RIGL § 11-47-5), you must be at least 21 years old to purchase a handgun or handgun ammunition. This is stricter than the federal minimum age of 18 for long guns, reflecting RI\'s intent to ensure handgun buyers have greater maturity. If you\'re under 21, you cannot legally buy a handgun from any source in the state — dealer or private sale.',
   },
   {
     id: 2,
@@ -39,7 +39,7 @@ export const questions: Question[] = [
     question: 'How long is the waiting period before purchasing a handgun in Rhode Island?',
     options: ['3 days', '5 days', '7 days', '14 days'],
     answer: '7 days',
-    explanation: 'Rhode Island has a seven-day waiting period before purchasing a handgun.',
+    explanation: 'Rhode Island imposes a mandatory 7-day waiting period (RIGL § 11-47-35.2) between applying to purchase a handgun and actually taking possession. This "cooling off" period allows time for a background check and helps prevent impulsive purchases during moments of emotional crisis. The clock starts when the application is filed with a licensed dealer, and the firearm cannot be delivered until seven days have passed.',
   },
   {
     id: 3,
@@ -48,7 +48,7 @@ export const questions: Question[] = [
     question: 'In RI, a first conviction for committing a crime of violence while armed carries a prison sentence of:',
     options: ['1 to 5 years', '3 to 10 years', '5 to 15 years', '10 to 20 years'],
     answer: '3 to 10 years',
-    explanation: 'Under RIGL § 11-47-3, a first conviction for committing a crime of violence while armed carries a sentence of not less than 3 nor more than 10 years. Second offenses carry 10-20 years, and third or subsequent offenses carry 15 years to life.',
+    explanation: 'Under RIGL § 11-47-3, committing any crime of violence while armed with a firearm carries an enhanced mandatory sentence of 3 to 10 years for a first offense — served consecutively, meaning on top of the sentence for the underlying crime. The penalties escalate sharply: a second offense carries 10 to 20 years, and a third or subsequent offense carries 15 years to life.',
   },
   {
     id: 4,
@@ -57,7 +57,7 @@ export const questions: Question[] = [
     question: 'In Rhode Island, convicted criminals can legally own a firearm.',
     options: ['True', 'False'],
     answer: 'False',
-    explanation: 'Convicted criminals cannot legally own a firearm in Rhode Island. Nor can mental incompetents, drug addicts, or habitual drunkards.',
+    explanation: 'Under RIGL § 11-47-5, Rhode Island prohibits firearm ownership by several categories of people, including anyone convicted of a crime of violence, fugitives from justice, those adjudicated as mental incompetents, drug addicts, and habitual drunkards. This is a lifetime prohibition — once convicted of a qualifying offense, you lose your right to possess firearms in the state. Even possessing a single round of ammunition while prohibited can result in felony charges.',
   },
   {
     id: 5,
@@ -66,7 +66,7 @@ export const questions: Question[] = [
     question: 'In Rhode Island, physicians treating gunshot wounds must report them to the police.',
     options: ['True', 'False'],
     answer: 'True',
-    explanation: 'RIGL § 11-47-48 requires every physician attending or treating a gunshot wound, bullet wound, or powder burn to report it to local police. This duty also applies to heads of hospitals and dispensaries.',
+    explanation: 'RIGL § 11-47-48 mandates that any physician who treats a gunshot wound, bullet wound, or powder burn must report it to local police as soon as possible. This duty also extends to the heads of hospitals and dispensaries. The law exists to help law enforcement investigate potential crimes — many shootings go unreported by victims, so medical professionals serve as a critical reporting link.',
   },
   {
     id: 6,
@@ -75,7 +75,7 @@ export const questions: Question[] = [
     question: 'It is legal to alter the serial number of a firearm in Rhode Island.',
     options: ['True', 'False'],
     answer: 'False',
-    explanation: 'You cannot alter the serial number of any firearm in Rhode Island.',
+    explanation: 'Under RIGL § 11-47-22, it is a felony to alter, remove, or obliterate the serial number on any firearm in Rhode Island. Serial numbers are the primary way law enforcement traces firearms used in crimes back to their point of sale and original purchaser. Possessing a firearm with an altered or removed serial number is also a crime, even if you weren\'t the one who defaced it, so always verify the serial number is intact before acquiring any firearm.',
   },
   {
     id: 7,
@@ -89,7 +89,7 @@ export const questions: Question[] = [
       'Anywhere as long as it is unloaded',
     ],
     answer: 'To a bonafide target range from your home, unloaded and in a separate container',
-    explanation: 'You do not need a license to transport a handgun to and from a bonafide target range if it is broken down, unloaded, or secured in a separate container.',
+    explanation: 'Under RIGL § 11-47-11, Rhode Island allows unlicensed transport of a handgun specifically between your home or place of business and a bona fide target range, provided the firearm is broken down, unloaded, or secured in a separate container. This is a narrow exception — it does not cover carrying to a friend\'s house, a store, or general travel. If you deviate from the home-to-range route or fail to properly secure the firearm, you could face charges for carrying without a license.',
   },
   {
     id: 8,
@@ -98,7 +98,7 @@ export const questions: Question[] = [
     question: 'A handgun transported openly is NOT considered concealed if it is not being transported to a bonafide target range.',
     options: ['True', 'False'],
     answer: 'False',
-    explanation: 'A handgun transported openly is still considered to be concealed if it is not being transported from home or a place of business to and from a bonafide target range.',
+    explanation: 'Rhode Island law defines "concealed" very broadly. Under RIGL § 11-47-2, even a handgun carried openly is considered concealed if it is not being transported in compliance with the lawful exceptions (such as traveling to and from a bona fide target range). This means you cannot simply carry a handgun in plain sight and claim it is not concealed — without a concealed carry permit or a qualifying exemption, any carry outside your home or business is treated as illegal concealed carry.',
   },
   {
     id: 9,
@@ -107,7 +107,7 @@ export const questions: Question[] = [
     question: 'Rhode Island firearms laws are found under which title and chapter?',
     options: ['Title 11, Chapter 11-22', 'Title 11, Chapter 11-47', 'Title 27, Chapter 27-10', 'Title 18, Chapter 44'],
     answer: 'Title 11, Chapter 11-47',
-    explanation: 'State laws can be found under Rhode Island General Laws (RIGL) TITLE 11, Chapter 11-47.',
+    explanation: 'All of Rhode Island\'s firearms statutes are consolidated under Title 11 (Criminal Offenses), Chapter 47 (Weapons) of the Rhode Island General Laws. Knowing this citation — RIGL Title 11, Chapter 11-47 — allows you to look up the actual text of any state firearms law yourself. This is a useful reference point for any gun owner in RI, as the chapter covers everything from purchase requirements and carry permits to prohibited persons and penalties.',
   },
   {
     id: 10,
@@ -116,7 +116,7 @@ export const questions: Question[] = [
     question: 'Which of the following people CANNOT legally own a firearm in Rhode Island?',
     options: ['A veteran', 'A habitual drunkard', 'A licensed hunter', 'A retired police officer'],
     answer: 'A habitual drunkard',
-    explanation: 'Convicted criminals, mental incompetents, drug addicts, and habitual drunkards cannot legally own a firearm in Rhode Island.',
+    explanation: 'RIGL § 11-47-5 lists specific categories of people who are prohibited from owning firearms in Rhode Island: convicted criminals (crimes of violence), fugitives, those adjudicated as mental incompetents, drug addicts, and habitual drunkards. A "habitual drunkard" is someone whose chronic alcohol abuse has been legally recognized. Veterans, licensed hunters, and retired police officers do not fall into any prohibited category by virtue of those roles alone.',
   },
   // SAFETY RULES
   {
@@ -131,7 +131,7 @@ export const questions: Question[] = [
       'Unload handguns when not in use',
     ],
     answer: 'Watch that muzzle — keep it pointed in a safe direction at all times',
-    explanation: 'The first commandment is: Watch that muzzle! Keep it pointed in a safe direction at all times.',
+    explanation: 'Muzzle control is the single most important safety rule because the direction the muzzle points determines what could be hit if the gun fires — whether intentionally or accidentally. If the muzzle is always pointed in a safe direction, then even if every other safety rule is violated and the gun discharges, no one will be hurt. This is why it is the first of the Ten Commandments of Firearm Safety and should become an automatic habit every time you handle a gun.',
   },
   {
     id: 12,
@@ -140,7 +140,7 @@ export const questions: Question[] = [
     question: "You should treat every handgun as if it were loaded, even if you think it isn't.",
     options: ['True', 'False'],
     answer: 'True',
-    explanation: "Commandment #2: Treat every handgun with the respect due a loaded gun. It might be, even if you think it isn't.",
+    explanation: 'This is the second commandment of firearm safety, and it exists because countless accidents have happened with guns people "knew" were unloaded. Chambers can hold a round even after a magazine is removed, and visual checks can be mistaken. By always treating every firearm as loaded, you build habits — like muzzle discipline and keeping your finger off the trigger — that protect you and others even if you make an error in checking the gun\'s status.',
   },
   {
     id: 13,
@@ -149,7 +149,7 @@ export const questions: Question[] = [
     question: 'According to the Four Primary Rules of Firearm Safety, where should your finger be until you are ready to shoot?',
     options: ['On the trigger', 'Inside the trigger guard', 'Outside the trigger guard', 'Behind the hammer'],
     answer: 'Outside the trigger guard',
-    explanation: 'Keep your finger outside the trigger guard until ready to shoot. This is the best way to prevent an accidental discharge.',
+    explanation: 'Keeping your finger outside the trigger guard and along the frame (often called "indexing") until you have made a conscious decision to fire is one of the most important rules for preventing negligent discharges. Under stress, surprise, or while moving, your hand can involuntarily clench — if your finger is on the trigger when that happens, the gun will fire. By training yourself to keep your finger straight and off the trigger until your sights are on target, you add a critical layer of safety.',
   },
   {
     id: 14,
@@ -158,7 +158,7 @@ export const questions: Question[] = [
     question: 'You should avoid alcoholic beverages before and during shooting.',
     options: ['True', 'False'],
     answer: 'True',
-    explanation: 'Commandment #10: Avoid alcoholic beverages before and during shooting. Also avoid mind- or behavior-altering medicines or drugs.',
+    explanation: 'This is the tenth commandment of firearm safety. Alcohol and drugs impair judgment, coordination, reaction time, vision, and hearing — all of which are essential to safe firearm handling. Even small amounts of alcohol can degrade your ability to make split-second safety decisions. This rule also applies to prescription and over-the-counter medications that cause drowsiness or affect your mental state.',
   },
   {
     id: 15,
@@ -172,7 +172,7 @@ export const questions: Question[] = [
       'Keep it in your waistband',
     ],
     answer: 'Unload it and leave actions open',
-    explanation: 'Commandment #6: Unload handguns when not in use. Leave actions open, and carry firearms in cases and unloaded to and from the shooting area.',
+    explanation: 'The sixth commandment of firearm safety requires you to unload firearms when they are not actively in use and to leave the action open so that anyone picking up the gun can immediately see it is clear. A closed action hides whether a round is chambered, creating a dangerous unknown. When transporting firearms to and from the range, they should always be unloaded and carried in a case.',
   },
   {
     id: 16,
@@ -181,7 +181,7 @@ export const questions: Question[] = [
     question: 'It is safe to run, jump, or climb with a loaded handgun.',
     options: ['True', 'False'],
     answer: 'False',
-    explanation: "Commandment #8: Don't run, jump, or climb with a loaded handgun. Unload a handgun before you climb a fence or tree, or jump a ditch.",
+    explanation: 'The eighth commandment of firearm safety prohibits running, jumping, or climbing with a loaded handgun because these physical activities can cause you to lose your grip, stumble, or fall — any of which could result in an accidental discharge. Before climbing a fence, tree, or steep embankment, you should unload the firearm completely. If you\'re with a partner, hand them the unloaded firearm before climbing, then have them pass it back once you\'re stable.',
   },
   {
     id: 17,
@@ -195,7 +195,7 @@ export const questions: Question[] = [
       'Engage the safety',
     ],
     answer: 'Immediately point the muzzle in a safe direction',
-    explanation: 'When handling a firearm in the home, immediately point the muzzle in a safe direction when you pick it up.',
+    explanation: 'The very first action when picking up any firearm — before checking if it\'s loaded, before removing a magazine — is to point the muzzle in a safe direction. This follows directly from the first commandment of firearm safety: muzzle control comes before everything else. If you pick up a gun and it accidentally discharges before you can check its status, the only thing protecting you and others is where that muzzle was pointed.',
   },
   {
     id: 18,
@@ -209,7 +209,7 @@ export const questions: Question[] = [
       'When a bullet strikes the wrong target',
     ],
     answer: 'When the primer fails to ignite the powder',
-    explanation: 'A misfire is when the primer fails to ignite the powder.',
+    explanation: 'A misfire occurs when you pull the trigger, the firing pin strikes the primer, but the primer fails to ignite the powder charge — so the gun does not fire at all. This can be caused by a defective primer, contaminated ammunition, or a weakened firing pin spring. A misfire is dangerous because you cannot be sure whether it is a true misfire or a "hang fire" (a delayed ignition), so you must keep the gun pointed downrange and wait at least 30 seconds before opening the action.',
   },
   {
     id: 19,
@@ -223,7 +223,7 @@ export const questions: Question[] = [
       'When the safety blocks the trigger',
     ],
     answer: 'A delay between the firing pin striking the primer and the gun firing',
-    explanation: 'A hang fire happens when the firing pin has struck the primer and there is a delay before it fires.',
+    explanation: 'A hang fire is a dangerous delay between the firing pin striking the primer and the actual ignition of the powder charge. The delay can range from a fraction of a second to several seconds. The critical danger is that if you assume a misfire occurred and immediately open the action or look down the barrel, the round could fire while you\'re in an unsafe position. This is exactly why the 30-second wait rule exists.',
   },
   {
     id: 20,
@@ -232,7 +232,7 @@ export const questions: Question[] = [
     question: 'If you experience a hang fire or misfire, how long should you wait before opening the action?',
     options: ['5 seconds', '15 seconds', '30 seconds', '60 seconds'],
     answer: '30 seconds',
-    explanation: 'Leave the action closed and retain your shooting position. Wait for at least 30 seconds before opening the action.',
+    explanation: 'The 30-second rule exists because of hang fires — situations where there is a delay between the firing pin striking the primer and the round actually firing. During those 30 seconds, you must keep the muzzle pointed downrange and maintain your shooting position, because the round could ignite at any moment. If you open the action too soon and a hang fire goes off, the cartridge could detonate outside the chamber, sending fragments in unpredictable directions.',
   },
   {
     id: 21,
@@ -241,7 +241,7 @@ export const questions: Question[] = [
     question: 'Safeties are mechanical devices that can fail and should never be fully relied upon.',
     options: ['True', 'False'],
     answer: 'True',
-    explanation: 'Safeties are mechanical devices and subject to mechanical failure from wear and other factors. You should never rely on the safety totally to protect against accidental shooting.',
+    explanation: 'Mechanical safeties — whether they block the trigger, the firing pin, or the hammer — are subject to wear, corrosion, dirt buildup, and manufacturing defects, all of which can cause them to fail without warning. A safety that worked yesterday might not work today. This is why the fundamental rules of firearm safety (muzzle control, trigger discipline, treating every gun as loaded) exist independently of any mechanical device. Think of the safety as an additional layer of protection, never as a substitute for safe handling practices.',
   },
   {
     id: 22,
@@ -255,7 +255,7 @@ export const questions: Question[] = [
       'Put it in a safe place',
     ],
     answer: 'Stop, and tell others who are with them to stop',
-    explanation: 'The Eddie Eagle rules: Stop (and tell others to stop), Do NOT touch the gun, Leave the area, Go tell a responsible adult.',
+    explanation: 'The NRA\'s Eddie Eagle GunSafe program teaches children four simple steps if they find a gun: Stop, Don\'t Touch, Run Away, Tell a Grown-Up. The very first step — Stop — is critical because a child\'s natural curiosity might lead them to pick up or handle the gun immediately. By training children to freeze and tell others around them to stop as well, you interrupt that dangerous impulse before anyone touches the firearm.',
   },
   {
     id: 23,
@@ -264,7 +264,7 @@ export const questions: Question[] = [
     question: 'More than half of fatal firearm incidents each year occur where?',
     options: ['At shooting ranges', 'In the home', 'On the street', 'At hunting areas'],
     answer: 'In the home',
-    explanation: 'Statistics show that more than half of the fatal firearm incidents reported each year occur in the home.',
+    explanation: 'Statistics consistently show that more than half of fatal firearm incidents occur in the home, not at ranges or in the field. This is largely because people become complacent with firearms they handle regularly — they skip safety checks, leave guns loaded and accessible, or handle them carelessly in a "comfortable" environment. This statistic underscores why safe storage, unloading firearms when not in use, and following all safety rules at home are just as important as following them at the range.',
   },
   {
     id: 24,
@@ -273,7 +273,7 @@ export const questions: Question[] = [
     question: 'Consuming alcohol before shooting only impairs vision, not other functions.',
     options: ['True', 'False'],
     answer: 'False',
-    explanation: 'Consuming alcohol before or during shooting impairs coordination, hearing, vision, communication, AND judgment.',
+    explanation: 'Alcohol does not just impair vision — it degrades virtually every function needed for safe firearm handling, including coordination, hearing, depth perception, communication, and most critically, judgment. Impaired judgment is the most dangerous effect because it can lead you to believe you are functioning normally when you are not, causing you to take risks you would never take sober.',
   },
   // HANDGUN PARTS & TYPES
   {
@@ -288,7 +288,7 @@ export const questions: Question[] = [
       'Magazine, slide, and trigger',
     ],
     answer: 'Action, frame, and barrel',
-    explanation: 'All modern handguns have three basic groups of parts: Action (trigger group), Frame (metal housing/handle), and Barrel (metal tube the bullet travels through).',
+    explanation: 'Every modern handgun — whether a revolver, semi-automatic, or single-shot — is built around three fundamental component groups: the action (the moving parts that load, fire, and eject cartridges, including the trigger mechanism), the frame (the metal or polymer housing that holds everything together and serves as the grip), and the barrel (the metal tube through which the bullet travels, with rifling that spins the bullet for accuracy). Understanding these three groups helps you communicate clearly about your firearm and follow maintenance instructions.',
   },
   {
     id: 26,
@@ -302,7 +302,7 @@ export const questions: Question[] = [
       'Break-action, lever-action, and pump-action',
     ],
     answer: 'Single-shot pistols, revolvers, and semi-automatic pistols',
-    explanation: 'There are three basic types of handguns: single-shot pistols, revolvers, and semi-automatic pistols.',
+    explanation: 'The three basic types of handguns are single-shot pistols (which hold and fire one round at a time), revolvers (which use a rotating cylinder typically holding 5-6 rounds), and semi-automatic pistols (which use a detachable magazine and automatically chamber the next round after each shot). Knowing the type of handgun you\'re dealing with is essential because each has different loading, unloading, and safety procedures — for example, removing the magazine from a semi-auto does not necessarily mean the chamber is empty.',
   },
   {
     id: 27,
@@ -311,7 +311,7 @@ export const questions: Question[] = [
     question: 'On a revolver, where is ammunition stored?',
     options: ['In a magazine in the grip', 'In the cylinder', 'In the frame', 'In the barrel'],
     answer: 'In the cylinder',
-    explanation: 'A revolver uses a cylinder to store the ammunition.',
+    explanation: 'A revolver stores its ammunition in a cylinder — a rotating block of metal with multiple chambers (typically 5 or 6), each holding one cartridge. When the trigger is pulled or the hammer is cocked, the cylinder rotates to align the next chamber with the barrel. This is a key distinction from semi-automatic pistols, which use a detachable magazine. To verify a revolver is unloaded, you must swing out or open the cylinder and visually inspect every chamber.',
   },
   {
     id: 28,
@@ -320,7 +320,7 @@ export const questions: Question[] = [
     question: 'On a semi-automatic pistol, where is ammunition stored?',
     options: ['In the cylinder', 'In the barrel', 'In a removable magazine that fits in the grip', 'In the frame'],
     answer: 'In a removable magazine that fits in the grip',
-    explanation: 'A semi-automatic pistol uses a removable magazine that fits in the grip.',
+    explanation: 'Unlike a revolver which uses a cylinder, a semi-automatic pistol feeds ammunition from a detachable box magazine that slides into the grip. This design allows for quick reloading — you simply drop the empty magazine and insert a fresh one. Understanding this distinction is critical for safe handling, because removing the magazine does NOT necessarily mean the gun is unloaded; a round may still be chambered.',
   },
   {
     id: 29,
@@ -329,7 +329,7 @@ export const questions: Question[] = [
     question: 'What part of the handgun is described as "the end of the barrel through which the bullet exits"?',
     options: ['Breech', 'Chamber', 'Bore', 'Muzzle'],
     answer: 'Muzzle',
-    explanation: 'The muzzle is the end of the barrel through which the bullet exits.',
+    explanation: 'The muzzle is the front opening of the barrel where the bullet exits the firearm. This is the most dangerous end of any gun, which is why the first rule of firearm safety — "watch that muzzle" — centers on always keeping it pointed in a safe direction. If you can control where the muzzle is aimed, you can prevent injury even if an accidental discharge occurs.',
   },
   {
     id: 30,
@@ -338,7 +338,7 @@ export const questions: Question[] = [
     question: 'What type of action fires only after the hammer has been manually cocked?',
     options: ['Double action', 'Single action', 'Semi-automatic', 'Break action'],
     answer: 'Single action',
-    explanation: 'Single Action: Will fire only after the hammer has been cocked manually.',
+    explanation: 'A single-action firearm requires the shooter to manually cock the hammer before each shot, meaning the trigger only performs one action: releasing the hammer. This design typically produces a lighter, crisper trigger pull, which can aid accuracy, but it also means the gun is in a ready-to-fire state once cocked. For safety, many shooters carry single-action firearms with the hammer down on an empty chamber.',
   },
   {
     id: 31,
@@ -352,7 +352,7 @@ export const questions: Question[] = [
       'Rotates the cylinder only',
     ],
     answer: 'Both cocks and releases the hammer',
-    explanation: 'Double Action: Pulling the trigger both cocks and releases the hammer.',
+    explanation: 'In a double-action revolver, the trigger performs two jobs in a single pull — it cocks the hammer back and then releases it to strike the firing pin. This means the gun can be fired without manually thumbing the hammer first, making it faster for follow-up shots. However, because the trigger is doing more work, the pull is heavier and longer, which can affect accuracy if you are not practiced with it.',
   },
   {
     id: 32,
@@ -361,7 +361,7 @@ export const questions: Question[] = [
     question: 'A fully automatic firearm may be used for hunting or sport shooting.',
     options: ['True', 'False'],
     answer: 'False',
-    explanation: 'The fully automatic firearm may NOT be used for hunting or sport shooting.',
+    explanation: 'Fully automatic firearms fire continuously as long as the trigger is held down, which makes them unsuitable and illegal for hunting or sport shooting. They are heavily regulated under federal law (the National Firearms Act) and are generally restricted to military and law enforcement use. The Blue Card exam tests this point because it is important to understand that civilian handgun use is limited to semi-automatic and other non-automatic actions.',
   },
   {
     id: 33,
@@ -375,7 +375,7 @@ export const questions: Question[] = [
       'A device that prevents the magazine from being removed',
     ],
     answer: 'A device that prevents the gun from firing by blocking the trigger or hammer',
-    explanation: 'A safety is a device that blocks the action to prevent the handgun from shooting until the safety is released or pushed to the "off" position.',
+    explanation: 'The safety is a mechanical device designed to block the firing mechanism — either the trigger, hammer, or firing pin — so the gun cannot discharge while the safety is engaged. However, safeties are mechanical and can wear out or fail, so you should never treat an engaged safety as a substitute for safe handling practices. Always follow the fundamental rules of gun safety regardless of whether the safety is on or off.',
   },
   {
     id: 34,
@@ -389,7 +389,7 @@ export const questions: Question[] = [
       'The mechanism that ejects spent cartridges',
     ],
     answer: 'Spiral grooves cut into the bore that spin the bullet for accuracy',
-    explanation: 'Rifling refers to spiraling grooves cut into the bore. The spin keeps the bullet point-first in flight, increasing accuracy and distance.',
+    explanation: 'Rifling consists of spiral grooves machined into the inside of the barrel that cause the bullet to spin as it travels through the bore. This spin stabilizes the bullet in flight, much like a football spiral, which dramatically improves accuracy and effective range. The pattern of lands and grooves is unique to each barrel, which is also why law enforcement can use rifling marks to match a bullet to a specific firearm.',
   },
   // AMMUNITION
   {
@@ -404,7 +404,7 @@ export const questions: Question[] = [
       'Case, gunpowder, bullet, and firing pin',
     ],
     answer: 'Case, primer, powder, and projectile',
-    explanation: 'The basic components of ammunition are the case, primer, powder (gunpowder), and projectile (bullet).',
+    explanation: 'Every cartridge is made up of four components working together: the case holds everything together, the primer is a small impact-sensitive explosive at the base, the powder (propellant) generates expanding gas when ignited, and the projectile (bullet) is what actually leaves the barrel. When the firing pin strikes the primer, it ignites the powder, and the rapidly expanding gas propels the bullet forward. Understanding these components helps you recognize why using damaged or incorrect ammunition can be extremely dangerous.',
   },
   {
     id: 36,
@@ -418,7 +418,7 @@ export const questions: Question[] = [
       'The chemical mixture that converts to expanding gas',
     ],
     answer: 'An explosive chemical compound that ignites the gunpowder when struck by the firing pin',
-    explanation: 'The primer is an explosive chemical compound that ignites the gunpowder when struck by a firing pin.',
+    explanation: 'The primer is a small cup of impact-sensitive explosive compound seated in the base of the cartridge. When the firing pin strikes it, the primer detonates and sends a flash of flame into the powder charge, igniting it. This is the critical first link in the firing chain — without a functioning primer, the gun will not fire, which is what happens during a misfire.',
   },
   {
     id: 37,
@@ -432,7 +432,7 @@ export const questions: Question[] = [
       'Along the side of the case',
     ],
     answer: 'In the center of the base of the case',
-    explanation: 'In centerfire ammunition, the primer is located in the center of the casing base.',
+    explanation: 'In centerfire ammunition, the primer sits in a small cup pressed into the center of the cartridge base, directly in line with where the firing pin strikes. This differs from rimfire ammunition, where the priming compound is spread around the entire rim of the case. Centerfire designs are used in most handgun calibers because the primer cup can be replaced, making the brass reloadable, and the system is generally more reliable for higher-pressure cartridges.',
   },
   {
     id: 38,
@@ -446,7 +446,7 @@ export const questions: Question[] = [
       'The amount of gunpowder in the cartridge',
     ],
     answer: 'The size of the handgun bore and the size of cartridges designed for different bores',
-    explanation: 'Caliber is used to describe the size of a handgun bore and the size of the cartridges designed for different bores.',
+    explanation: 'Caliber refers to the internal diameter of the gun barrel (the bore) and, by extension, the diameter of the cartridges designed to fit that bore. It is typically expressed in fractions of an inch (like .45) or in millimeters (like 9mm). Matching the correct caliber of ammunition to your specific firearm is one of the most critical safety practices — using the wrong caliber can cause a catastrophic failure of the firearm and serious injury.',
   },
   {
     id: 39,
@@ -455,7 +455,7 @@ export const questions: Question[] = [
     question: "If two handguns have the same bore size, their cartridges are always interchangeable.",
     options: ['True', 'False'],
     answer: 'False',
-    explanation: 'Having the same bore size does NOT mean different cartridges are interchangeable. Always match ammunition exactly to the data stamp on your firearm.',
+    explanation: 'Even if two firearms share the same bore diameter, their chambers may be shaped differently to accept cartridges of different lengths, pressures, or case designs. For example, .357 Magnum and .38 Special have similar bore sizes but very different pressure ratings. Always match ammunition exactly to the caliber and data stamp on your firearm, because using an incorrect cartridge — even one that physically fits — can cause dangerous overpressure or a malfunction.',
   },
   {
     id: 40,
@@ -464,7 +464,7 @@ export const questions: Question[] = [
     question: 'You should carry only the correct ammunition for the firearm you are using and never mix ammunition.',
     options: ['True', 'False'],
     answer: 'True',
-    explanation: "Carry only the correct ammunition for the firearm you're using. Never mix ammunition such as carrying a caliber your companion uses.",
+    explanation: 'Carrying only the correct ammunition for your specific firearm prevents the dangerous possibility of accidentally loading the wrong round. If you are shooting with others who use different calibers, mixing loose rounds in your pockets or range bag could lead to chambering an incompatible cartridge, which can cause a catastrophic failure. This simple discipline of keeping only your correct ammo on hand is one of the easiest and most important safety habits to develop.',
   },
   {
     id: 41,
@@ -473,7 +473,7 @@ export const questions: Question[] = [
     question: 'In rifling, what are the ridges of metal between the grooves called?',
     options: ['Grooves', 'Lands', 'Bore', 'Rifts'],
     answer: 'Lands',
-    explanation: 'The ridges of metal between the grooves are called lands. Together, the grooves and lands are called rifling.',
+    explanation: 'The lands are the raised ridges of metal left between the grooves that are cut into the barrel\'s bore during the rifling process. Together, the lands and grooves grip the bullet as it passes through the barrel and impart the spin that stabilizes it in flight. The width, depth, and twist rate of these lands and grooves vary by manufacturer, which is why rifling patterns serve as a kind of ballistic fingerprint.',
   },
   // STORAGE & TRANSPORT
   {
@@ -488,7 +488,7 @@ export const questions: Question[] = [
       'Loaded, in a locked safe',
     ],
     answer: 'Unloaded, in a locked location, separate from ammunition',
-    explanation: 'Firearms must be stored unloaded and in a locked location, separate from ammunition. The storage area should be cool, clean, and dry.',
+    explanation: 'Storing firearms unloaded, locked, and separate from ammunition creates multiple layers of protection against unauthorized access — especially by children. A cool, clean, and dry environment also prevents rust and corrosion that can cause mechanical failures. This multi-barrier approach means that even if someone bypasses one safeguard, additional steps remain before the firearm could be loaded and fired.',
   },
   {
     id: 43,
@@ -497,7 +497,7 @@ export const questions: Question[] = [
     question: 'Hiding a loaded gun keeps children from getting access to the firearm.',
     options: ['True', 'False'],
     answer: 'False',
-    explanation: 'Hiding a loaded gun does NOT keep children from getting access to the firearm. Always store guns in a locked location.',
+    explanation: 'Children are naturally curious and surprisingly resourceful at finding hidden objects in a home. Studies consistently show that simply hiding a loaded firearm is not an effective safety measure — children will find it. The only reliable method is to store firearms unloaded in a locked container, with ammunition stored separately, and to educate children using programs like the NRA\'s Eddie Eagle about what to do if they encounter a gun.',
   },
   {
     id: 44,
@@ -511,7 +511,7 @@ export const questions: Question[] = [
       'Locks the slide in place',
     ],
     answer: 'Fits around the trigger guard to prevent the trigger from being pulled',
-    explanation: 'Trigger locks are designed to fit around the trigger guard of a handgun to prevent it from being fired.',
+    explanation: 'A trigger lock is a physical device that wraps around or through the trigger guard, making it impossible to pull the trigger while the lock is in place. It provides an additional layer of security beyond locked storage, particularly useful for preventing unauthorized use by children or others unfamiliar with firearms. However, a trigger lock should be used only on an unloaded firearm — never on a loaded one — since manipulating the lock near a loaded trigger could cause an accidental discharge.',
   },
   {
     id: 45,
@@ -520,7 +520,7 @@ export const questions: Question[] = [
     question: 'How should you position guns when storing them?',
     options: ['Upright, muzzle up', 'Horizontally or muzzle pointing down', 'Muzzle pointed at wall', 'It does not matter'],
     answer: 'Horizontally or muzzle pointing down',
-    explanation: 'Store guns horizontally, or with the muzzle pointing down. When guns are stored upright, gravity pulls gun oil downward into the action, forming a sticky film.',
+    explanation: 'When guns are stored upright with the muzzle pointing up, gravity slowly pulls lubricating oil down from the barrel into the action, where it can pool and form a sticky residue that gums up the moving parts. Over time this can cause malfunctions when the firearm is next used. Storing firearms horizontally or with the muzzle pointing down prevents oil migration and keeps the action clean and functional.',
   },
   {
     id: 46,
@@ -534,7 +534,7 @@ export const questions: Question[] = [
       'On the dashboard',
     ],
     answer: 'Locked in the trunk or an area not immediately accessible to anyone in the vehicle',
-    explanation: 'The handgun should be locked in the trunk or in an area of the vehicle that is not immediately accessible to anyone. You may not store the gun under a seat or in a door pocket.',
+    explanation: 'Keeping a handgun locked in the trunk or in a location not immediately accessible prevents unauthorized access and reduces the temptation or ability to use the firearm impulsively. Under the seat or in a door pocket are specifically prohibited because these locations are too easily reached by the driver, passengers, or a thief who breaks into the vehicle. This rule also aligns with Rhode Island\'s transport laws for those without a carry permit.',
   },
   {
     id: 47,
@@ -543,7 +543,7 @@ export const questions: Question[] = [
     question: 'Ammunition should be stored with firearms to keep everything in one place.',
     options: ['True', 'False'],
     answer: 'False',
-    explanation: 'Firearms and ammunition must be stored separately in locked compartments. Keep all ammunition away from flammables.',
+    explanation: 'Storing firearms and ammunition separately creates a critical safety buffer — even if someone gains unauthorized access to the firearm, they cannot immediately load and fire it. Ammunition should also be kept away from heat sources and flammable materials, because extreme heat can cause cartridges to discharge on their own. This two-location approach is especially important in homes with children or anyone unfamiliar with firearm safety.',
   },
   // SHOOTING TECHNIQUES
   {
@@ -558,7 +558,7 @@ export const questions: Question[] = [
       'Load, aim, and follow through',
     ],
     answer: 'Proper sight adjustment, proper shooting technique, and practice',
-    explanation: 'Good marksmanship is built on three fundamentals: proper sight adjustment or patterning, proper shooting technique, and practice.',
+    explanation: 'Good marksmanship rests on three pillars: proper sight adjustment ensures your sights are zeroed so the bullet hits where you aim, proper shooting technique covers your grip, stance, breathing, trigger control, and follow-through, and practice is what turns knowledge into consistent muscle memory. Without regular practice, even someone who understands perfect technique will struggle with accuracy because shooting is a perishable skill that degrades without reinforcement.',
   },
   {
     id: 49,
@@ -572,7 +572,7 @@ export const questions: Question[] = [
       'Safety off, aim, fire, safety on',
     ],
     answer: 'Aim carefully, take a deep breath and exhale, squeeze the trigger slowly, follow through',
-    explanation: 'The four fundamentals: 1. Aim carefully, aligning your sights. 2. Take a deep breath, and then exhale. 3. Squeeze the trigger slowly. 4. Follow through.',
+    explanation: 'These four steps work together to minimize movement at the moment of firing. Careful aiming aligns your sights on the target; the deep breath and exhale settles your body and reduces natural tremor at the "respiratory pause." Squeezing the trigger slowly — rather than jerking it — prevents you from pulling the muzzle off target at the critical instant. Following through means maintaining your sight picture and grip after the shot breaks, which prevents flinching or dropping the gun prematurely.',
   },
   {
     id: 50,
@@ -581,7 +581,7 @@ export const questions: Question[] = [
     question: 'Which grip style is typically more stable for handgun shooting?',
     options: ['One-handed hold', 'Two-handed hold', 'Both are equally stable', 'Depends on the gun'],
     answer: 'Two-handed hold',
-    explanation: 'The two-handed hold is typically more stable than a one-handed hold.',
+    explanation: 'A two-handed grip is more stable because it distributes recoil forces across both arms and creates a wider, more rigid support structure for the handgun. Recoil pushes the gun backward and upward, and your support hand helps counteract that torque, allowing you to get back on target faster for follow-up shots. One-handed shooting is taught for situational awareness, but for accuracy and control, two hands are almost always superior.',
   },
   {
     id: 51,
@@ -590,7 +590,7 @@ export const questions: Question[] = [
     question: 'You should jerk the trigger quickly to improve accuracy.',
     options: ['True', 'False'],
     answer: 'False',
-    explanation: 'Jerking the trigger or abruptly clenching the trigger hand can move the gun enough to cause a miss. Apply slow, steady pressure until the gun fires.',
+    explanation: 'Jerking the trigger applies a sudden, uneven force that pulls the entire gun off target at the exact moment of firing — even a tiny movement at the muzzle translates to inches or feet of error at the target. Instead, you should apply slow, steady, rearward pressure so that the gun fires almost as a surprise, which prevents your hand and body from anticipating the recoil and flinching. This technique, called a "surprise break," is one of the most important fundamentals of accurate shooting.',
   },
   {
     id: 52,
@@ -604,7 +604,7 @@ export const questions: Question[] = [
       'Looking at the target through binoculars',
     ],
     answer: 'The process of lining up the rear and front sights',
-    explanation: 'Sight alignment is the process of lining up rear and front sights.',
+    explanation: 'Sight alignment means positioning the front sight centered and level within the notch of the rear sight so that the tops are even. This is the foundation of accurate shooting because even a small misalignment between the front and rear sights will be magnified over distance, sending the bullet far from your intended point of impact. When aiming, your eye should focus on the front sight — the target and rear sight will appear slightly blurry, and that is correct.',
   },
   {
     id: 53,
@@ -613,7 +613,7 @@ export const questions: Question[] = [
     question: 'At the shooting range, which eye should you aim with?',
     options: ['Always the right eye', 'Always the left eye', 'Your dominant (master) eye', 'Both eyes closed'],
     answer: 'Your dominant (master) eye',
-    explanation: 'You need to aim with your dominant — or master — eye for the most accurate shooting.',
+    explanation: 'Your dominant or master eye is the one your brain relies on more heavily for directional information, and it may not be on the same side as your dominant hand. Aiming with your non-dominant eye can cause you to unconsciously shift the gun off target because your brain is receiving conflicting spatial data. You can determine your dominant eye with a simple test — point at a distant object with both eyes open, then close each eye alternately; the eye that keeps your finger on the object is your master eye.',
   },
   {
     id: 54,
@@ -622,7 +622,7 @@ export const questions: Question[] = [
     question: "All handguns should be fired at arm's length.",
     options: ['True', 'False'],
     answer: 'True',
-    explanation: "The slide and hammer of a semi-automatic gun can deliver a bruising blow when held too close to the body. All handguns should be fired at arm's length.",
+    explanation: 'Holding a handgun at full arm\'s length keeps your face and body safely away from the slide\'s rearward travel on a semi-automatic and from the cylinder gap blast on a revolver. The slide of a semi-auto cycles backward with significant force after each shot, and if the gun is held too close to your face, it can cause cuts or bruising. Arm\'s length also provides better sight alignment and a more stable shooting platform, improving both safety and accuracy.',
   },
   {
     id: 55,
@@ -631,7 +631,7 @@ export const questions: Question[] = [
     question: 'At the shooting range, you should always wear hearing and eye protection, even if you are watching others shoot.',
     options: ['True', 'False'],
     answer: 'True',
-    explanation: 'Always wear hearing and eye protection, even if you\'re watching others shoot.',
+    explanation: 'Gunfire produces noise levels around 140-170 decibels, far exceeding the 85 dB threshold where hearing damage begins, and even a single unprotected exposure can cause permanent hearing loss. Ejected casings, unburned powder, and bullet fragments can also ricochet unpredictably, posing a risk to bystanders\' eyes. These hazards exist whether you are the shooter or simply standing nearby, which is why eye and ear protection is mandatory for everyone on or near the firing line.',
   },
   {
     id: 56,
@@ -645,7 +645,7 @@ export const questions: Question[] = [
       'Equally on front sight, rear sight, and target',
     ],
     answer: 'On the front sight',
-    explanation: 'When using an open sight, focus on the front sight. The target and the rear sight should appear blurred or fuzzy.',
+    explanation: 'The human eye can only focus sharply at one distance at a time, so you must choose where to place your focus among three planes: the rear sight, front sight, and target. Focusing on the front sight is correct because it is the final reference point that determines where the bullet will strike — if the front sight is crisp and properly aligned within the blurred rear sight notch, your point of aim will be accurate.',
   },
   // HANDGUN LAWS (FEDERAL)
   {
@@ -660,7 +660,7 @@ export const questions: Question[] = [
       'Freedom from unreasonable search and seizure',
     ],
     answer: 'The right of the People to keep and bear arms',
-    explanation: 'The Second Amendment states: "A well regulated militia being necessary to the security of a free State, the right of the People to keep and bear arms shall not be infringed."',
+    explanation: 'Ratified in 1791 as part of the Bill of Rights, the Second Amendment was written in the context of citizens who had just fought a revolution and viewed an armed populace as essential to liberty. The Supreme Court\'s 2008 decision in District of Columbia v. Heller confirmed this protects an individual\'s right to possess firearms independent of militia service, though it also acknowledged that the right is not unlimited and may be subject to reasonable regulation.',
   },
   {
     id: 58,
@@ -669,7 +669,7 @@ export const questions: Question[] = [
     question: 'Ignorance of handgun laws is a valid excuse for violating them.',
     options: ['True', 'False'],
     answer: 'False',
-    explanation: 'Ignorance of handgun laws is NOT a valid excuse for violating them. You are responsible for knowing the laws.',
+    explanation: 'This is a foundational legal principle — "ignorantia juris non excusat" (ignorance of the law is no excuse). Firearms laws are complex, varying at the federal, state, and local level, and violations can carry severe criminal penalties including prison time. As a gun owner, you have an affirmative responsibility to learn and stay current on all applicable laws, because a court will not accept "I didn\'t know" as a defense.',
   },
   {
     id: 59,
@@ -683,7 +683,7 @@ export const questions: Question[] = [
       'Any way you like, as long as you declare it',
     ],
     answer: 'Unloaded, in a hard-sided locked container, checked as luggage',
-    explanation: 'All firearms must be unloaded and packed in a hard-sided, locked container, declared at the ticket counter, and checked with your luggage.',
+    explanation: 'Under federal TSA regulations, firearms must be unloaded, placed in a hard-sided container that is locked (and only the passenger may retain the key or combination), and declared at the airline check-in counter before being checked as luggage. Firearms are never permitted in carry-on bags or on your person in the cabin. Ammunition must also be securely packed, and airlines may have additional requirements, so always check with your carrier before traveling.',
   },
   {
     id: 60,
@@ -697,7 +697,7 @@ export const questions: Question[] = [
       'With a 30-day waiting period',
     ],
     answer: 'Only in their state of residence',
-    explanation: 'The Gun Control Act of 1968 requires individuals to purchase handguns only in their state of residence.',
+    explanation: 'The Gun Control Act of 1968 was passed after the assassinations of President Kennedy, Senator Robert Kennedy, and Dr. Martin Luther King Jr., establishing the modern framework of federal firearms regulation. One key provision restricts handgun purchases to the buyer\'s state of residence, meaning you cannot walk into a gun store in another state and buy a pistol. This was designed to prevent people from circumventing stricter state laws by purchasing in more permissive jurisdictions.',
   },
   {
     id: 61,
@@ -711,7 +711,7 @@ export const questions: Question[] = [
       'You feel threatened anywhere',
     ],
     answer: 'An intruder is within your residence or legally occupied place',
-    explanation: 'The Castle Doctrine protects the right of an individual to act in self-defense when an intruder is within your residence or any legally occupied place, vehicle, or workplace.',
+    explanation: 'The Castle Doctrine is rooted in the centuries-old English common law principle that "a man\'s home is his castle," where he has the right to defend himself without a duty to retreat. In practice, this means that if an intruder unlawfully enters your residence, vehicle, or workplace, you are legally presumed to have a reasonable fear of imminent death or serious bodily harm and may use force, including deadly force, in self-defense. The doctrine removes the obligation to retreat, but only within legally occupied spaces.',
   },
   {
     id: 62,
@@ -720,7 +720,7 @@ export const questions: Question[] = [
     question: 'It is always illegal to use deadly force if you are involved in a non-deadly attack.',
     options: ['True', 'False'],
     answer: 'True',
-    explanation: 'It is always illegal to use deadly force if you are involved in a non-deadly attack.',
+    explanation: 'The law requires that your use of force be proportional to the threat you face. Deadly force is only justified when you reasonably believe you or someone else faces imminent death or serious bodily harm. If the attack is non-deadly — such as a shove, a slap, or verbal threats — responding with lethal force is considered excessive and illegal. This proportionality principle exists because the legal system values human life and demands that the response match the severity of the danger.',
   },
   {
     id: 63,
@@ -729,7 +729,7 @@ export const questions: Question[] = [
     question: 'Which of the following is a prohibited location for carrying a handgun?',
     options: ['Your own residence', 'Your place of business', 'School grounds', 'A campsite'],
     answer: 'School grounds',
-    explanation: 'School grounds, courthouses, government buildings, military bases, airports, banks, parks, places that serve alcohol, and other locations may be prohibited for carrying a handgun.',
+    explanation: 'The federal Gun-Free School Zones Act of 1990 makes it a serious federal crime to knowingly possess a firearm within 1,000 feet of any K-12 school, with limited exceptions for licensed carry in some states. Beyond schools, many jurisdictions also prohibit firearms in courthouses, government buildings, airports, and establishments that serve alcohol. Violating these restrictions can result in felony charges, so it is essential to know the prohibited locations in every jurisdiction where you carry.',
   },
   // LOADING & UNLOADING
   {
@@ -744,7 +744,7 @@ export const questions: Question[] = [
       'Check the chamber visually',
     ],
     answer: 'Engage the safety',
-    explanation: 'To unload a semi-automatic: 1. Engage the safety. 2. Remove the magazine. 3. Pull the slide to the rear. 4. Visually and physically check the chamber.',
+    explanation: 'Engaging the safety first is critical because it provides a mechanical barrier against accidental discharge during the remaining unloading steps, when you will be manipulating the firearm\'s action. The full sequence is: (1) engage the safety, (2) remove the magazine, (3) pull the slide to the rear to eject any chambered round, and (4) visually and physically inspect the chamber to confirm it is empty. This order minimizes the risk of a negligent discharge throughout the entire process.',
   },
   {
     id: 65,
@@ -753,7 +753,7 @@ export const questions: Question[] = [
     question: 'Removing the magazine from a semi-automatic pistol means the handgun is unloaded.',
     options: ['True', 'False'],
     answer: 'False',
-    explanation: 'Removal of the magazine from a semi-automatic pistol does NOT mean the handgun is unloaded! There may still be a round in the chamber.',
+    explanation: 'This is one of the most dangerous misconceptions in firearms handling and a leading cause of negligent discharges. When a semi-automatic pistol is fired or its slide is racked, a round is stripped from the magazine and loaded into the chamber — and that round stays there even after the magazine is removed. You must always pull the slide back and visually and physically inspect the chamber after removing the magazine to confirm the gun is truly unloaded.',
   },
   {
     id: 66,
@@ -762,7 +762,7 @@ export const questions: Question[] = [
     question: 'What device is used to remove fired cartridge cases from revolver chambers?',
     options: ['Magazine release', 'Extractor / ejector rod', 'Slide lock', 'Cylinder release'],
     answer: 'Extractor / ejector rod',
-    explanation: 'You remove fired cartridge cases using the extractor. An ejector rod is connected to the extractor. Pushing the ejector rod causes the extractor to remove the fired cases.',
+    explanation: 'In a revolver, the extractor is a star-shaped piece that sits at the rear of the cylinder and is connected to the ejector rod, which runs along the underside of the barrel. When you swing the cylinder open and push the ejector rod rearward, the extractor lifts all cartridge cases (spent or live) out of the cylinder chambers simultaneously. This mechanical design allows quick and reliable clearing of the cylinder, essential for both reloading and safe unloading.',
   },
   {
     id: 67,
@@ -776,7 +776,7 @@ export const questions: Question[] = [
       'Cock the hammer',
     ],
     answer: 'Pull the slide all the way to the rear and then let it go forward on its own',
-    explanation: 'After inserting the magazine, pull the slide all the way to the rear and then let it go forward on its own. This picks up a cartridge and slides it into the chamber.',
+    explanation: 'Pulling the slide fully rearward and releasing it allows the recoil spring to drive the slide forward with enough force to strip the top round from the magazine and seat it firmly into the chamber. It is important to let the slide snap forward on its own under spring tension rather than riding it forward with your hand, because a slow or incomplete slide closure can fail to fully chamber the round, causing a malfunction. This process is called "charging" or "racking" the slide.',
   },
   {
     id: 68,
@@ -790,7 +790,7 @@ export const questions: Question[] = [
       'Remove the barrel',
     ],
     answer: 'Point the muzzle in a safe direction and make sure the gun is unloaded',
-    explanation: 'The first step to clean your handgun is to point the muzzle in a safe direction, and make sure the gun is unloaded. Then remove all ammunition from the cleaning bench.',
+    explanation: 'Safety always comes first — before any disassembly or cleaning, you must point the muzzle in a safe direction, remove the magazine (for semi-automatics) or open the cylinder (for revolvers), and verify the firearm is completely unloaded both visually and physically. You should also remove all ammunition from the cleaning area entirely to eliminate any chance of accidentally loading a round. Cleaning solvents and oils can also make your hands slippery, making handling a loaded firearm even more dangerous.',
   },
   {
     id: 69,
@@ -804,7 +804,7 @@ export const questions: Question[] = [
       'A method for cleaning a firearm',
     ],
     answer: 'A dispute resolution method to avoid violence',
-    explanation: 'LEAPS is a dispute resolution method: Listen, Empathize, Ask, Paraphrase, Summarize — used to resolve conflicts without violence.',
+    explanation: 'LEAPS stands for Listen, Empathize, Ask, Paraphrase, and Summarize — it is a conflict de-escalation technique included in firearms safety training because the best gunfight is the one that never happens. The method teaches you to actively listen to the other person, show empathy for their feelings, ask clarifying questions, paraphrase what they said to confirm understanding, and summarize the situation to find common ground. As a responsible gun owner, your first obligation is always to avoid and de-escalate confrontations before they reach the point where force might be considered.',
   },
   {
     id: 70,
@@ -818,7 +818,7 @@ export const questions: Question[] = [
       'The space between the cylinder and barrel',
     ],
     answer: 'The base of the barrel used to hold the cartridge ready for shooting',
-    explanation: 'The chamber is the base of the barrel used to hold the cartridge ready for shooting.',
+    explanation: 'The chamber is the rearmost section of the barrel, specifically machined to the exact dimensions of the cartridge the firearm is designed to fire. When a round is loaded, it sits in the chamber where it is supported on all sides by the chamber walls, containing the enormous pressure (often 20,000+ PSI) generated when the powder ignites. This is why using the correct caliber ammunition is so critical — a cartridge that does not match the chamber dimensions can cause catastrophic failure.',
   },
   {
     id: 71,
@@ -832,7 +832,7 @@ export const questions: Question[] = [
       'Securing the trigger guard permanently',
     ],
     answer: 'Preventing the action from closing on a live cartridge',
-    explanation: 'A cable lock prevents the action from closing on a live cartridge. Run the cable through the openings of the open action and lock the cable.',
+    explanation: 'A cable lock is a simple but effective safety device — a flexible steel cable is threaded through the firearm\'s action (such as through the ejection port of a semi-automatic or the cylinder of a revolver), physically preventing the action from closing and making it impossible to chamber a round. Many firearms are sold with a cable lock included, and they are also available for free through programs like Project ChildSafe. Cable locks are an affordable layer of protection to prevent unauthorized use.',
   },
   {
     id: 72,
@@ -841,7 +841,7 @@ export const questions: Question[] = [
     question: '"Dry firing" involves going through all the shooting steps but without using live ammunition.',
     options: ['True', 'False'],
     answer: 'True',
-    explanation: '"Dry firing" involves going through all the shooting steps but without using live ammunition. It may be used to teach beginners or to help more advanced shooters eliminate flinching and jerking.',
+    explanation: 'Dry firing is a valuable training technique used by shooters of all skill levels, from beginners to competitive professionals. By practicing the full shooting sequence — sight alignment, breathing, trigger squeeze, and follow-through — without live ammunition, you can build muscle memory and identify bad habits like flinching or jerking the trigger without the noise and recoil that mask those errors. Most modern centerfire handguns can be safely dry fired, but always check your owner\'s manual, as some rimfire firearms can be damaged by dry firing without a snap cap.',
   },
   {
     id: 73,
@@ -855,7 +855,7 @@ export const questions: Question[] = [
       'Store safely, transport legally, shoot accurately, clean regularly',
     ],
     answer: 'Point muzzle safely, treat as loaded, be sure of target, keep finger off trigger',
-    explanation: 'The Four Primary Rules: 1) Point the muzzle in a safe direction. 2) Treat every firearm with the respect due a loaded gun. 3) Be sure of the target and what is in front of it and beyond it. 4) Keep your finger outside the trigger guard until ready to shoot.',
+    explanation: 'These four rules are considered universal and are taught by virtually every firearms safety organization. They are designed to be redundant — even if you violate one rule, following the other three will still prevent a tragedy. For example, if you accidentally point the muzzle at someone (violating Rule 1), keeping your finger off the trigger (Rule 4) and treating the gun as loaded (Rule 2) still prevents a discharge. This layered safety approach is why these rules must become automatic habits, not just memorized facts.',
   },
   {
     id: 74,
@@ -869,7 +869,7 @@ export const questions: Question[] = [
       'A device that uses compressed air to fire projectiles',
     ],
     answer: 'A mechanical device that uses pressure from a burning powder to force a projectile through and out of a metal tube',
-    explanation: 'A firearm is a mechanical device that uses pressure from a burning powder to force a projectile through and out of a metal tube.',
+    explanation: 'This definition distinguishes true firearms from air guns, BB guns, and other projectile devices that use compressed air or springs rather than burning propellant. In a firearm, pulling the trigger ignites a primer, which detonates the gunpowder in the cartridge, creating rapidly expanding gases that propel the bullet through the barrel at high velocity. This definition matters legally because firearms are subject to specific federal and state regulations that do not apply to air-powered devices.',
   },
   {
     id: 75,
@@ -883,7 +883,7 @@ export const questions: Question[] = [
       'Use the same caliber as a similar-looking gun',
     ],
     answer: 'Take it to a qualified gunsmith',
-    explanation: 'Every handgun is designed for a specific cartridge. If you cannot find the caliber stamped on the handgun, take it to a qualified gunsmith.',
+    explanation: 'Using the wrong caliber ammunition can cause a catastrophic failure — a round that is too small may chamber but fire with dangerous gas leakage, while one that is too large could cause the barrel or chamber to rupture, potentially causing severe injury or death. The correct caliber is typically stamped on the barrel or slide, but on older or worn firearms it may be unreadable. A qualified gunsmith has the precision measuring tools to safely and accurately determine the correct caliber, so never guess or experiment on your own.',
   },
   // === NEW QUESTIONS (76–150) ===
   // RI FIREARMS LAW
@@ -899,7 +899,7 @@ export const questions: Question[] = [
       'The Governor',
     ],
     answer: 'The Attorney General or a local licensing authority',
-    explanation: 'In Rhode Island, a license to carry a concealed handgun may be issued by the Attorney General or by a local licensing authority (city or town).',
+    explanation: 'Under Rhode Island General Laws § 11-47-11 and § 11-47-18, concealed carry permits may be issued through two paths: the Attorney General can issue permits statewide, while local licensing authorities (typically the chief of police) can also issue them within their jurisdiction. The two issuing authorities have historically applied somewhat different standards. This dual-authority system is unique to Rhode Island and important to understand when applying for a permit.',
   },
   {
     id: 77,
@@ -908,7 +908,7 @@ export const questions: Question[] = [
     question: 'In Rhode Island, a person must demonstrate a proper reason for carrying a concealed handgun to obtain a permit.',
     options: ['True', 'False'],
     answer: 'True',
-    explanation: 'Rhode Island law requires an applicant to show a proper reason (such as a fear for personal safety or business need) when applying for a concealed carry permit.',
+    explanation: 'Under RIGL § 11-47-11, applicants for a concealed carry permit must demonstrate a "proper reason" for carrying, such as a documented fear for personal safety or a business that involves carrying valuables. This is what makes Rhode Island a "may-issue" state rather than a "shall-issue" state — the issuing authority has discretion to approve or deny applications based on the stated reason. Simply wanting to carry for general self-defense may not be sufficient depending on the issuing authority.',
   },
   {
     id: 78,
@@ -922,7 +922,7 @@ export const questions: Question[] = [
       'Community service',
     ],
     answer: 'Up to 10 years in prison',
-    explanation: 'Carrying a pistol without a license in Rhode Island can result in imprisonment of up to 10 years.',
+    explanation: 'Under RIGL § 11-47-8, carrying a pistol or revolver without a proper license is a felony punishable by imprisonment of up to 10 years. This is one of the most severe penalties in Rhode Island\'s firearms statutes, reflecting the state\'s serious approach to regulating concealed carry. Unlike minor infractions, this charge carries life-altering consequences including a felony record, which would permanently prohibit you from owning firearms under federal law.',
   },
   {
     id: 79,
@@ -931,7 +931,7 @@ export const questions: Question[] = [
     question: 'In Rhode Island, a person convicted of a domestic violence misdemeanor may still legally possess a firearm.',
     options: ['True', 'False'],
     answer: 'False',
-    explanation: 'Under both Rhode Island and federal law, a person convicted of a misdemeanor crime of domestic violence is prohibited from possessing a firearm.',
+    explanation: 'Both federal law (under the Lautenberg Amendment, 18 U.S.C. § 922(g)(9)) and Rhode Island state law prohibit anyone convicted of a misdemeanor crime of domestic violence from possessing firearms or ammunition. This is a lifetime ban with no exception for how long ago the conviction occurred. The Lautenberg Amendment was notable because it was one of the first federal laws to impose a firearms disability based on a misdemeanor rather than a felony conviction, reflecting the strong link between domestic violence and gun homicide.',
   },
   {
     id: 80,
@@ -945,7 +945,7 @@ export const questions: Question[] = [
       'A federal firearms license',
     ],
     answer: 'A pistol/revolver safety certificate required before purchasing a handgun',
-    explanation: 'The Blue Card is a pistol/revolver safety certificate. You must pass a written safety exam to obtain one, and it is required before purchasing a handgun in Rhode Island.',
+    explanation: 'The Blue Card, formally known as the Pistol/Revolver Safety Certificate, is required under RIGL § 11-47-35.2 before any person can purchase a handgun in Rhode Island. The exam tests your knowledge of safe handling, storage, and Rhode Island firearms laws. The card itself does not authorize you to carry a handgun; it only permits purchase. You must still obtain a separate concealed carry permit if you wish to carry outside your home or business.',
   },
   {
     id: 81,
@@ -959,7 +959,7 @@ export const questions: Question[] = [
       'Only at a police station',
     ],
     answer: 'At any approved firearms dealer or at a DEM-approved location',
-    explanation: 'The Blue Card exam can be taken at approved firearms dealers or at locations approved by the Rhode Island Department of Environmental Management (DEM).',
+    explanation: 'Under RIGL § 11-47-35.2, the Blue Card exam is administered at locations approved by the Rhode Island Department of Environmental Management (DEM), which includes many licensed firearms dealers throughout the state. The exam consists of a written test based on the DEM\'s official safety handbook, and you need a passing score to receive your certificate. Check with your local firearms dealer or the DEM website for current testing locations and schedules.',
   },
   {
     id: 82,
@@ -968,7 +968,7 @@ export const questions: Question[] = [
     question: 'In Rhode Island, you may legally sell a handgun to a person under 21 years of age in a private sale.',
     options: ['True', 'False'],
     answer: 'False',
-    explanation: 'Rhode Island law prohibits the sale of a handgun to anyone under 21 years of age, regardless of whether it is a private sale or through a dealer.',
+    explanation: 'Under RIGL § 11-47-30, Rhode Island prohibits selling a handgun to anyone under 21, whether through a licensed dealer or a private transaction. This is stricter than some states that only restrict dealer sales to those under 21. The law exists because handguns are uniquely concealable, so the state sets a higher age bar, and violating this carries criminal penalties regardless of how informal the sale might be.',
   },
   {
     id: 83,
@@ -982,7 +982,7 @@ export const questions: Question[] = [
       'Being adjudicated mentally incompetent',
     ],
     answer: 'Being a licensed hunter',
-    explanation: 'Being a licensed hunter does not disqualify you. Convicted felons, drug addicts, habitual drunkards, and those adjudicated mentally incompetent are prohibited from owning firearms.',
+    explanation: 'Rhode Island law (RIGL § 11-47-6) lists specific disqualifying conditions for firearm possession, including felony convictions, drug addiction, habitual drunkenness, and being adjudicated mentally incompetent. Being a licensed hunter is actually a lawful activity that has nothing to do with disqualification — in fact, hunting is one of the primary legal uses of firearms. Disqualifications are based on conditions that indicate a person may pose a danger to themselves or others, not on their participation in lawful shooting sports.',
   },
   {
     id: 84,
@@ -991,7 +991,7 @@ export const questions: Question[] = [
     question: 'In Rhode Island, every person selling a pistol, revolver, or other firearm must maintain a register of sales.',
     options: ['True', 'False'],
     answer: 'True',
-    explanation: 'RIGL § 11-47-40 requires every person, firm, or corporation selling a pistol, revolver, or other firearm to keep a register recording the sale date, purchaser\'s name, age, residence, and a description of the firearm. Wholesale transactions between licensed dealers are exempt.',
+    explanation: 'RIGL § 11-47-40 requires every seller of pistols, revolvers, or other firearms to maintain a detailed register including the date of sale, purchaser\'s name, age, address, and a description of the firearm sold. This register creates a paper trail that helps law enforcement trace firearms used in crimes back to their point of sale. Wholesale transactions between licensed dealers are exempt, but all retail-level sales must be recorded.',
   },
   {
     id: 85,
@@ -1005,7 +1005,7 @@ export const questions: Question[] = [
       'At a licensed shooting range',
     ],
     answer: 'Intoxicated or under the influence of intoxicating liquor or narcotic drugs',
-    explanation: 'RIGL § 11-47-52 makes it unlawful to carry or transport any firearm in Rhode Island when intoxicated or under the influence of intoxicating liquor or narcotic drugs.',
+    explanation: 'Under RIGL § 11-47-52, carrying or transporting any firearm while intoxicated or under the influence of alcohol or narcotic drugs is a criminal offense in Rhode Island. This law exists because alcohol and drugs severely impair judgment, reaction time, and motor control — exactly the faculties you need to handle a firearm safely. The practical takeaway is simple: firearms and intoxicants never mix, whether you are carrying concealed, transporting in a vehicle, or handling a gun on your own property.',
   },
   // SAFETY RULES
   {
@@ -1020,7 +1020,7 @@ export const questions: Question[] = [
       'Unload handguns when not in use',
     ],
     answer: 'Be sure of the target and what is behind it',
-    explanation: 'Commandment #3: Be sure of the target and what is in front of it and behind it. Know the identifying features of the game you are hunting.',
+    explanation: 'Commandment #3 requires you to be sure of your target and what is both in front of it and behind it before firing. Bullets can pass through intended targets (over-penetration), miss entirely, or ricochet — any of which could injure bystanders or damage property beyond your target. In practical terms, this means you should never fire at movement, sound, or a shape you haven\'t positively identified, and you need a safe backstop.',
   },
   {
     id: 87,
@@ -1029,7 +1029,7 @@ export const questions: Question[] = [
     question: 'A bullet can travel through a target and hit something or someone beyond it.',
     options: ['True', 'False'],
     answer: 'True',
-    explanation: 'A bullet can travel through or past a target. Always know what is beyond your target before you shoot.',
+    explanation: 'Bullets — especially from handguns with higher-caliber or full-metal-jacket ammunition — can easily pass through a target and continue traveling with enough energy to cause serious injury or death to anyone beyond it. This is called over-penetration, and it is one of the main reasons Commandment #3 requires you to know what is behind your target. Even interior walls in a home may not stop a bullet, which is why awareness of your entire shooting environment is a fundamental safety responsibility.',
   },
   {
     id: 88,
@@ -1043,7 +1043,7 @@ export const questions: Question[] = [
       'Wear eye and ear protection',
     ],
     answer: 'Use correct ammunition',
-    explanation: 'Commandment #4: Use correct ammunition. Carry only the correct ammunition for the firearm you are using.',
+    explanation: 'Commandment #4 emphasizes using only the correct ammunition for your specific firearm, which is critical because using the wrong caliber or gauge can cause catastrophic failure — the barrel can bulge, crack, or even explode. The correct ammunition type is stamped on the barrel or slide of the firearm and must match exactly what is printed on the ammunition box. Even cartridges that are close in size (such as .380 ACP and 9mm) are not interchangeable.',
   },
   {
     id: 89,
@@ -1057,7 +1057,7 @@ export const questions: Question[] = [
       'Use correct ammunition',
     ],
     answer: 'Check that the barrel is clear of obstructions before shooting',
-    explanation: 'Commandment #5: Check that the barrel is clear of obstructions before shooting. Even a small amount of mud, snow, or excess lubricant can cause dangerously increased pressures.',
+    explanation: 'Commandment #5 tells you to check the barrel for obstructions before shooting because even a small blockage — mud, snow, excess lubricant, or a stuck bullet from a squib load — can cause a dangerous pressure buildup when a round is fired behind it. This excess pressure can bulge or burst the barrel, sending metal fragments toward the shooter and bystanders. Before each shooting session, visually inspect the bore from the breech end to make sure it is completely clear.',
   },
   {
     id: 90,
@@ -1066,7 +1066,7 @@ export const questions: Question[] = [
     question: 'A small amount of mud or snow in the barrel is harmless and will not affect the gun when fired.',
     options: ['True', 'False'],
     answer: 'False',
-    explanation: 'Even a small amount of mud, snow, or excess lubricating oil in the bore can cause dangerously increased pressures and could cause the barrel to bulge or burst.',
+    explanation: 'This is a dangerous misconception. Even a tiny amount of mud, snow, or excess lubricating oil in the bore creates an obstruction that dramatically increases pressure when a round is fired behind it. The resulting over-pressure can bulge or burst the barrel, potentially sending shrapnel into the shooter\'s face and hands. This is why Commandment #5 requires you to inspect the barrel before shooting — always look through the bore from the breech end to confirm it is completely clear.',
   },
   {
     id: 91,
@@ -1080,7 +1080,7 @@ export const questions: Question[] = [
       'Store it in a locked safe',
     ],
     answer: 'Point it at anything you do not intend to shoot',
-    explanation: 'Commandment #9: Never point a handgun at anything you do not intend to shoot. And avoid all horseplay with a handgun.',
+    explanation: 'Commandment #9 states you should never point a handgun at anything you do not intend to shoot, and you must avoid all horseplay with firearms. A gun can discharge unintentionally due to mechanical failure, a light trigger pull, or a moment of carelessness — and if it is pointed at a person when that happens, the consequences are irreversible. This applies even when you believe the gun is unloaded, because the majority of "accidental" shootings involve guns someone thought were empty.',
   },
   {
     id: 92,
@@ -1094,7 +1094,7 @@ export const questions: Question[] = [
       'Never drink alcohol before shooting',
     ],
     answer: 'Never shoot at a hard, flat surface or water',
-    explanation: 'Commandment #7: Never shoot at a hard, flat surface or the surface of water. Bullets can ricochet off flat surfaces and water.',
+    explanation: 'Commandment #7 warns against shooting at hard, flat surfaces or the surface of water because bullets ricochet — they bounce off at unpredictable angles and can travel significant distances with enough energy to injure or kill. Water surfaces act much like a hard flat surface at shallow angles, deflecting bullets in unexpected directions. This is why safe backstops at shooting ranges are made of soft, angled materials designed to absorb and trap bullets rather than deflect them.',
   },
   {
     id: 93,
@@ -1103,7 +1103,7 @@ export const questions: Question[] = [
     question: 'Bullets can ricochet off the surface of water.',
     options: ['True', 'False'],
     answer: 'True',
-    explanation: 'Bullets can ricochet off water and hard, flat surfaces. Never shoot at these surfaces.',
+    explanation: 'Bullets absolutely can and do ricochet off water, and this catches many people by surprise. When a bullet strikes water at a shallow angle, the surface tension and density are enough to deflect it rather than absorb it, sending it skipping unpredictably in a new direction at potentially lethal velocity. The same principle applies to hard, flat surfaces like concrete, rock, and metal. This is why Commandment #7 specifically prohibits shooting at these surfaces.',
   },
   {
     id: 94,
@@ -1117,7 +1117,7 @@ export const questions: Question[] = [
       'Only outdoor ranges have lead exposure risks',
     ],
     answer: 'Wear gloves and wash your hands after shooting',
-    explanation: 'Lead exposure can occur from handling ammunition and from discharge residue. Wash your hands thoroughly after shooting, and never eat or drink at a shooting range.',
+    explanation: 'Lead exposure is a real and serious health hazard at shooting ranges. When a firearm is discharged, lead particles are released from the primer and the base of the bullet, creating airborne lead dust that can be inhaled or settle on your skin and clothing. Ingesting lead — which happens easily if you eat, drink, or touch your face without washing your hands — can cause neurological damage, kidney problems, and other serious health effects over time. Always wash your hands and face thoroughly after shooting.',
   },
   {
     id: 95,
@@ -1126,7 +1126,7 @@ export const questions: Question[] = [
     question: 'You should be aware of what is in front of your target as well as behind it before firing.',
     options: ['True', 'False'],
     answer: 'True',
-    explanation: 'You must be sure of the target and what is in front of it AND beyond it before you fire. A bullet can pass through or miss the target entirely.',
+    explanation: 'Being aware of both what is in front of and behind your target is essential because threats to safety exist in both directions. Something between you and the target — a person, animal, or obstacle — could move into your line of fire at the last moment. Meanwhile, a bullet that misses or passes through the target continues traveling with lethal force, potentially for over a mile depending on caliber. This 360-degree awareness mindset is what separates responsible shooters from reckless ones.',
   },
   {
     id: 96,
@@ -1140,7 +1140,7 @@ export const questions: Question[] = [
       'Switch to different ammunition',
     ],
     answer: 'Stop shooting immediately and check for a barrel obstruction',
-    explanation: 'A change in the sound or recoil could indicate a squib load or obstruction in the barrel. Stop shooting immediately, unload, and check the barrel before continuing.',
+    explanation: 'A sudden change in sound or recoil is a telltale sign of a squib load — a round where the powder charge failed to fully ignite, pushing the bullet only partway into the barrel instead of out the muzzle. If you fire another round behind that lodged bullet, the barrel will almost certainly burst, which can cause devastating injuries to your hands and face. The correct response is to immediately stop shooting, keep the gun pointed in a safe direction, unload it, and visually inspect the bore for a stuck bullet.',
   },
   {
     id: 97,
@@ -1154,7 +1154,7 @@ export const questions: Question[] = [
       'Call 911',
     ],
     answer: 'Leave the area',
-    explanation: 'The Eddie Eagle steps are: Stop, Don\'t Touch, Leave the Area, Tell a Responsible Adult.',
+    explanation: 'The Eddie Eagle GunSafe program teaches four simple steps: Stop, Don\'t Touch, Leave the Area, and Tell a Responsible Adult. After stopping and not touching the gun, leaving the area is the critical next step because it removes the child from the danger entirely — curiosity is powerful, and distance is the best defense against it. Only after reaching a safe location should the child find a trusted adult to report the firearm.',
   },
   // HANDGUN PARTS & TYPES
   {
@@ -1169,7 +1169,7 @@ export const questions: Question[] = [
       'The trigger mechanism only',
     ],
     answer: 'The metal housing that holds all the other parts together, also serves as the handle',
-    explanation: 'The frame is the metal housing that holds all the other parts together. It also serves as the handle (grip) of the handgun.',
+    explanation: 'The frame (sometimes called the receiver) is the central structural component of a handgun — it is the chassis to which the barrel, slide or cylinder, trigger assembly, and grip panels all attach. Legally, the frame is considered the actual "firearm" by the ATF, meaning it carries the serial number and is the regulated part that requires a background check to purchase. Understanding the frame helps you understand how all other components relate to each other.',
   },
   {
     id: 99,
@@ -1183,7 +1183,7 @@ export const questions: Question[] = [
       'The safety mechanism only',
     ],
     answer: 'The trigger group — the moving parts that load, fire, and eject cartridges',
-    explanation: 'The action (also called the trigger group) contains the moving parts that load, fire, and eject the cartridges or shotshells.',
+    explanation: 'The action, also called the trigger group, is the mechanical heart of the firearm — it contains all the moving parts responsible for loading a cartridge into the chamber, firing it by releasing the hammer or striker, and ejecting the spent casing. Different action types (single action, double action, semi-automatic) describe how these moving parts work together, which directly affects trigger pull weight, shooting speed, and how you operate the firearm safely.',
   },
   {
     id: 100,
@@ -1197,7 +1197,7 @@ export const questions: Question[] = [
       'The muzzle end of the barrel',
     ],
     answer: 'The inside of the barrel through which the bullet travels',
-    explanation: 'The bore is the inside of the barrel. Looking through the bore from the breech end, you can see the spiraling grooves of the rifling.',
+    explanation: 'The bore is the interior channel of the barrel through which the bullet travels after firing. In rifled handguns, the bore contains spiral grooves called rifling that spin the bullet as it passes through, giving it gyroscopic stability for accurate flight — much like a football spiral. The diameter of the bore (measured between the raised lands of the rifling) determines the firearm\'s caliber. Keeping the bore clean and free of obstructions is critical for both accuracy and safety.',
   },
   {
     id: 101,
@@ -1206,7 +1206,7 @@ export const questions: Question[] = [
     question: 'A semi-automatic pistol fires one round each time the trigger is pulled and automatically ejects and chambers the next round.',
     options: ['True', 'False'],
     answer: 'True',
-    explanation: 'A semi-automatic pistol fires one round with each trigger pull. The energy from firing automatically ejects the spent case and chambers the next round from the magazine.',
+    explanation: 'A semi-automatic pistol uses the energy generated by firing a round — specifically the rearward force of expanding gases — to automatically cycle the action: the slide blows back, ejects the spent casing, re-cocks the hammer or striker, and then springs forward to strip a fresh round from the magazine and chamber it. It is important to understand that "semi-automatic" means one shot per trigger pull — it is NOT the same as fully automatic, which continues firing as long as the trigger is held.',
   },
   {
     id: 102,
@@ -1220,7 +1220,7 @@ export const questions: Question[] = [
       'The trigger guard',
     ],
     answer: 'The upper part that moves back and forth to chamber and eject rounds',
-    explanation: 'The slide is the upper part of a semi-automatic pistol that moves rearward when fired, ejecting the spent case and chambering a new round when it returns forward.',
+    explanation: 'The slide is the upper portion of a semi-automatic pistol that reciprocates (moves back and forth) on rails machined into the frame. When a round is fired, recoil energy drives the slide rearward, which extracts and ejects the spent casing, re-cocks the firing mechanism, and then a recoil spring pushes the slide forward again, stripping a new round from the magazine and seating it in the chamber. Manually pulling the slide back ("racking the slide") is how you initially chamber a round or clear the weapon.',
   },
   {
     id: 103,
@@ -1234,7 +1234,7 @@ export const questions: Question[] = [
       'The front sight',
     ],
     answer: 'The rear end of the barrel, closest to the shooter',
-    explanation: 'The breech is the rear end of the barrel, closest to the shooter. This is where the cartridge is loaded into the chamber.',
+    explanation: 'The breech is the rear end of the barrel, closest to the shooter, and it is where the cartridge sits in the chamber when the gun is ready to fire. It must be engineered to withstand tremendous pressure because when the powder charge ignites, the breech end contains all that expanding gas and directs it forward to propel the bullet down the bore. Understanding the breech is also practical: this is the end you look through when inspecting the bore for obstructions.',
   },
   {
     id: 104,
@@ -1243,7 +1243,7 @@ export const questions: Question[] = [
     question: 'A single-shot pistol can fire multiple rounds without reloading.',
     options: ['True', 'False'],
     answer: 'False',
-    explanation: 'A single-shot pistol must be reloaded after each shot. It holds only one round at a time.',
+    explanation: 'A single-shot pistol has no magazine or cylinder — it holds exactly one round in the chamber at a time, and the shooter must manually open the action and reload after every shot. While this makes it slower to fire than revolvers or semi-automatics, single-shot pistols are often valued for their simplicity, reliability, and accuracy. For the exam, the key distinction is that single-shot, revolver, and semi-automatic represent the three basic handgun action types.',
   },
   {
     id: 105,
@@ -1257,7 +1257,7 @@ export const questions: Question[] = [
       'Locks the slide in the rear position',
     ],
     answer: 'Strikes the primer to ignite the powder charge',
-    explanation: 'The firing pin strikes the primer of the cartridge, which ignites the powder charge and fires the bullet.',
+    explanation: 'The firing pin is a small, spring-loaded metal rod that is the crucial link in the chain of events that fires a round. When the trigger is pulled, it releases the hammer or striker, which drives the firing pin forward to strike the primer — a small, impact-sensitive explosive compound seated in the base of the cartridge. A damaged or worn firing pin can cause misfires (failure to ignite the primer), which is why regular inspection of the firing pin is part of proper firearm maintenance.',
   },
   {
     id: 106,
@@ -1271,7 +1271,7 @@ export const questions: Question[] = [
       'A cover that goes over the muzzle',
     ],
     answer: 'A protective loop around the trigger that prevents accidental discharge',
-    explanation: 'The trigger guard is a protective loop around the trigger designed to help prevent accidental firing of the handgun.',
+    explanation: 'The trigger guard is the loop of metal or polymer that surrounds the trigger, and its purpose is to physically shield the trigger from unintentional contact with objects, clothing, or fingers that could cause an accidental discharge. This is why one of the fundamental safety rules instructs you to keep your finger outside the trigger guard and along the frame until you are ready to fire. Without a trigger guard, holstering, carrying, or even handling the firearm would be far more dangerous.',
   },
   {
     id: 107,
@@ -1285,7 +1285,7 @@ export const questions: Question[] = [
       'Direct Action / Standard Action',
     ],
     answer: 'Double Action / Single Action — first shot is double action, subsequent shots are single action',
-    explanation: 'DA/SA means the first trigger pull is double action (cocks and releases the hammer), and subsequent shots are single action (hammer is already cocked by the slide cycling).',
+    explanation: 'DA/SA (Double Action/Single Action) describes a firing mechanism where the first trigger pull cocks the hammer and releases it to fire (double action), resulting in a longer, heavier trigger pull. After that first shot, the cycling slide automatically cocks the hammer for subsequent shots, so those only require the trigger to release the already-cocked hammer (single action), giving a shorter, lighter pull. This design means the shooter experiences two different trigger feels during a string of fire, which requires practice to manage smoothly.',
   },
   // AMMUNITION
   {
@@ -1300,7 +1300,7 @@ export const questions: Question[] = [
       'There is no real difference',
     ],
     answer: 'In rimfire, the primer is in the rim of the case; in centerfire, it is in the center of the base',
-    explanation: 'In rimfire ammunition, the primer is contained in the rim of the cartridge case. In centerfire ammunition, the primer is in the center of the base of the case.',
+    explanation: 'The key difference is where the primer compound — the impact-sensitive explosive that starts the firing process — is located within the cartridge. In rimfire cartridges, the primer is spun into the entire rim of the cartridge base, and the firing pin strikes the edge of the rim to ignite it. In centerfire cartridges, the primer is contained in a small, separate cup pressed into the center of the cartridge base. Centerfire designs can handle higher pressures and are reloadable, while rimfire is generally limited to smaller cartridges like the .22 LR.',
   },
   {
     id: 109,
@@ -1309,7 +1309,7 @@ export const questions: Question[] = [
     question: 'The .22 Long Rifle (.22 LR) is an example of rimfire ammunition.',
     options: ['True', 'False'],
     answer: 'True',
-    explanation: 'The .22 LR is one of the most common examples of rimfire ammunition. Most other common handgun calibers are centerfire.',
+    explanation: 'The .22 LR is the quintessential rimfire cartridge — its primer compound is contained in the rim of the cartridge base rather than in a central primer cup. This design makes .22 LR ammunition inexpensive to manufacture, which is why it is the world\'s most popular cartridge for target shooting and training. Nearly all other common handgun calibers (9mm, .45 ACP, .38 Special, etc.) use centerfire ignition.',
   },
   {
     id: 110,
@@ -1323,7 +1323,7 @@ export const questions: Question[] = [
       'The date the firearm was manufactured',
     ],
     answer: 'The marking on the barrel or frame indicating the caliber or gauge of ammunition to use',
-    explanation: 'The data stamp is stamped on the barrel or frame and tells you the caliber or gauge of ammunition the firearm is designed to use. Always match your ammunition to this stamp.',
+    explanation: 'The data stamp is critically important because it tells you exactly what ammunition is safe to fire in that specific firearm. Using the wrong caliber can cause a catastrophic failure — a round that is slightly too small may chamber but create dangerous pressure imbalances, while one that is too large may jam or rupture the barrel. Before loading any firearm, always locate the data stamp on the barrel or frame and verify it matches the headstamp on your ammunition exactly.',
   },
   {
     id: 111,
@@ -1337,7 +1337,7 @@ export const questions: Question[] = [
       'The crimp at the top of the case',
     ],
     answer: 'The marking on the base of the cartridge case identifying caliber and manufacturer',
-    explanation: 'The headstamp is stamped on the base (head) of the cartridge case. It identifies the caliber and usually the manufacturer.',
+    explanation: 'The headstamp is your primary tool for identifying a cartridge\'s caliber and manufacturer, stamped into the metal at the base of the case where it is permanently readable. This marking matters because mixing up ammunition — even calibers that look very similar, like .40 S&W and 10mm Auto — can cause dangerous malfunctions or catastrophic failure. Always cross-reference the headstamp on your ammunition with the data stamp on your firearm before loading.',
   },
   {
     id: 112,
@@ -1346,7 +1346,7 @@ export const questions: Question[] = [
     question: 'Ammunition should be stored in a cool, dry place away from heat and flammable materials.',
     options: ['True', 'False'],
     answer: 'True',
-    explanation: 'Ammunition should be stored in a cool, dry place, separate from firearms, and away from heat sources and flammable materials.',
+    explanation: 'Heat and moisture are ammunition\'s worst enemies. High temperatures can degrade the chemical stability of gunpowder and primer compounds, potentially causing misfires or dangerous pressure changes when fired. Moisture can corrode brass casings and contaminate primer compounds, leading to unreliable ignition. Storing ammunition near flammable materials also creates a serious fire hazard, as cartridges exposed to extreme heat in a fire can cook off unpredictably.',
   },
   {
     id: 113,
@@ -1360,7 +1360,7 @@ export const questions: Question[] = [
       'A type of shotgun shell',
     ],
     answer: 'A round with insufficient powder charge that may lodge a bullet in the barrel',
-    explanation: 'A squib load has an insufficient powder charge. The bullet may not exit the barrel and can become lodged. Firing another round behind a lodged bullet can cause catastrophic failure.',
+    explanation: 'A squib load is one of the most dangerous malfunctions a shooter can experience because it is easy to miss. The underpowered round produces a noticeably softer report and less recoil, but if the shooter does not recognize the signs and fires a subsequent round, the second bullet strikes the lodged bullet, creating pressures that can rupture the barrel or blow apart the firearm. If you ever hear a shot that sounds weak or feel unusually light recoil, stop shooting immediately and inspect the barrel.',
   },
   {
     id: 114,
@@ -1374,7 +1374,7 @@ export const questions: Question[] = [
       'The gunpowder charge',
     ],
     answer: 'The bullet — the part that exits the barrel and travels to the target',
-    explanation: 'The projectile (bullet) is the part of the cartridge that exits the barrel and travels to the target when the gun is fired.',
+    explanation: 'The bullet is the only component of a cartridge that actually leaves the firearm — the case, primer, and powder all stay behind or are consumed during firing. Understanding this distinction matters because people often incorrectly use "bullet" and "cartridge" interchangeably, which can cause confusion when discussing ammunition. Bullets come in various designs (full metal jacket, hollow point, soft point) each engineered for different purposes, from target practice to self-defense.',
   },
   {
     id: 115,
@@ -1388,7 +1388,7 @@ export const questions: Question[] = [
       'It cushions the bullet in the case',
     ],
     answer: 'It converts to a rapidly expanding gas that propels the bullet through the barrel',
-    explanation: 'The gunpowder is a chemical mixture that, when ignited by the primer, converts to a rapidly expanding gas. This gas propels the bullet through the barrel.',
+    explanation: 'When the primer ignites the gunpowder, a rapid chemical reaction converts the solid powder into a massive volume of hot gas almost instantaneously. This expanding gas generates the thousands of pounds per square inch of pressure needed to push the bullet down the barrel at high velocity. The type and amount of powder is carefully calibrated by manufacturers — too little creates a dangerous squib load, and too much can generate excessive pressure that may destroy the firearm.',
   },
   // STORAGE & TRANSPORT
   {
@@ -1403,7 +1403,7 @@ export const questions: Question[] = [
       'A holster with a retention strap',
     ],
     answer: 'A lockable, heavy-duty metal container designed to secure firearms',
-    explanation: 'A strong box is a lockable, heavy-duty metal container specifically designed to store and secure firearms from unauthorized access.',
+    explanation: 'A strong box provides a meaningful layer of physical security because its heavy-duty metal construction resists prying, cutting, and brute-force entry that would defeat ordinary containers. Unlike simply hiding a firearm in a drawer or closet, a locked strong box ensures that children, visitors, or unauthorized individuals cannot access the weapon even if they discover its location. Rhode Island law specifically requires firearms to be secured from unauthorized access, and a quality strong box is one of the most practical ways to meet that obligation.',
   },
   {
     id: 117,
@@ -1412,7 +1412,7 @@ export const questions: Question[] = [
     question: 'When storing firearms, the storage area should be cool, clean, and dry.',
     options: ['True', 'False'],
     answer: 'True',
-    explanation: 'Firearms should be stored in a cool, clean, and dry environment. Heat, moisture, and dirt can cause corrosion and damage to firearms.',
+    explanation: 'Proper environmental conditions are essential for firearm longevity because metal components are highly susceptible to rust and corrosion. Moisture causes oxidation on steel surfaces and can pit the bore, degrading accuracy and structural integrity over time. Heat can damage wood stocks and degrade lubricants, while dirt and dust can work their way into the action and cause malfunctions. A cool, clean, dry storage environment — ideally with a dehumidifier or desiccant packets — preserves both the function and value of your firearms.',
   },
   {
     id: 118,
@@ -1426,7 +1426,7 @@ export const questions: Question[] = [
       'It takes up too much space',
     ],
     answer: 'Gravity pulls gun oil down into the action, forming a sticky film',
-    explanation: 'When guns are stored upright, gravity pulls gun oil downward into the action, forming a sticky film that can attract dirt and cause malfunctions.',
+    explanation: 'This is a practical maintenance concern that many gun owners overlook. When a firearm is stored muzzle-up, gravity slowly pulls the lubricating oil down from the barrel and upper components into the action, trigger group, and stock. Over time, this oil collects dust and debris, forming a gummy residue that can impede the action, cause light primer strikes, or create other malfunctions. Storing firearms horizontally or muzzle-down in a proper rack prevents this oil migration.',
   },
   {
     id: 119,
@@ -1435,7 +1435,7 @@ export const questions: Question[] = [
     question: 'A gun stored under a seat or in a door pocket of a vehicle is properly secured.',
     options: ['True', 'False'],
     answer: 'False',
-    explanation: 'You may NOT store a gun under a seat or in a door pocket. Handguns must be locked in the trunk or in an area of the vehicle not immediately accessible to anyone.',
+    explanation: 'A firearm tucked under a car seat or in a door pocket is neither locked nor secured from unauthorized access — it can slide around during driving, be discovered by a passenger or car thief, or be reached by a child. Rhode Island law requires that handguns transported in a vehicle be unloaded and stored in the trunk or in a locked container that is not readily accessible to vehicle occupants. This requirement exists because an unsecured gun in a vehicle creates serious risks during traffic stops, accidents, or vehicle break-ins.',
   },
   {
     id: 120,
@@ -1449,7 +1449,7 @@ export const questions: Question[] = [
       'Keeping the gun in a drawer with a note saying "Do Not Touch"',
     ],
     answer: 'Using a gun safe, trigger lock, or cable lock and storing ammunition separately',
-    explanation: 'Physical security devices (gun safes, trigger locks, cable locks) combined with storing ammunition separately are the proper ways to prevent unauthorized access by children.',
+    explanation: 'Children are naturally curious and cannot be relied upon to follow verbal instructions alone — studies consistently show that even children who have been told never to touch a gun will often handle one if they find it unsecured. Physical barriers like gun safes, trigger locks, and cable locks provide reliable prevention because they make it mechanically impossible to fire the weapon without a key or combination. Storing ammunition in a separate locked location adds a critical second layer of protection.',
   },
   {
     id: 121,
@@ -1463,7 +1463,7 @@ export const questions: Question[] = [
       'Any way you prefer',
     ],
     answer: 'Unloaded, broken down or in a separate container',
-    explanation: 'When transporting a handgun to and from a target range, it must be broken down, unloaded, or secured in a separate container.',
+    explanation: 'This requirement exists to minimize the risk of an accidental discharge during transit and to ensure the firearm is clearly in a non-threatening configuration. An unloaded firearm that is broken down or secured in a separate container cannot be quickly used, which protects both the gun owner and the public. Under Rhode Island law, this standard applies specifically to transportation to and from ranges, gunsmiths, and other lawful destinations.',
   },
   {
     id: 122,
@@ -1472,7 +1472,7 @@ export const questions: Question[] = [
     question: 'Under Rhode Island law, firearms must be secured in a locked container or equipped with a tamper-resistant mechanical lock or safety device.',
     options: ['True', 'False'],
     answer: 'True',
-    explanation: 'RIGL § 11-47-60.1 requires firearms to be secured in a locked container or equipped with a tamper-resistant mechanical lock or other safety device, properly engaged, to prevent operation by unauthorized persons.',
+    explanation: 'RIGL § 11-47-60.1 was enacted to reduce accidental shootings, particularly those involving children and unauthorized users. The law recognizes that a firearm left unsecured in a home or vehicle is a preventable hazard, and it places legal responsibility on the gun owner to use mechanical safeguards. Failure to comply can result in criminal penalties, and if an unauthorized person — especially a minor — gains access to an unsecured firearm and causes injury, the owner may face additional charges and civil liability.',
   },
   {
     id: 123,
@@ -1486,7 +1486,7 @@ export const questions: Question[] = [
       'The ammunition may corrode the firearm',
     ],
     answer: 'It allows easy access to a loaded weapon, increasing the risk of accidents',
-    explanation: 'Storing firearms and ammunition together increases the risk of accidental discharge or unauthorized use. They must always be stored separately in locked locations.',
+    explanation: 'When a firearm and its matching ammunition are stored together, any person who gains access — whether a curious child, a burglar, or someone in emotional crisis — can have a loaded, functional weapon in seconds. Separating them creates a critical time delay and an additional barrier that can prevent impulsive or unauthorized use. Best practice is to store firearms and ammunition in separate locked containers, ideally in different locations.',
   },
   // SHOOTING TECHNIQUES
   {
@@ -1501,7 +1501,7 @@ export const questions: Question[] = [
       'Cleaning the gun after a shooting session',
     ],
     answer: 'Continuing to hold position and maintaining aim after the shot is fired',
-    explanation: 'Follow through means continuing to apply all the shooting fundamentals after the shot is fired — holding your position, keeping your eye on the target, and maintaining trigger control.',
+    explanation: 'Follow through prevents the common mistake of dropping or jerking the gun the instant the shot breaks, which pulls your point of impact off target. Because the bullet is still traveling down the barrel for a brief moment after the trigger releases the firing mechanism, any movement during that fraction of a second will shift where the bullet actually goes. By maintaining your grip, stance, sight picture, and trigger finger position after the shot, you ensure the gun remains stable through the entire firing cycle.',
   },
   {
     id: 125,
@@ -1515,7 +1515,7 @@ export const questions: Question[] = [
       'A doctor must test it for you',
     ],
     answer: 'Extend your arms, form a small opening with your hands, focus on a distant object, then close each eye — the eye that keeps the object centered is dominant',
-    explanation: 'To find your dominant eye: extend arms, form a small opening with both hands, center a distant object, then close each eye. The eye that keeps the object centered is your dominant eye.',
+    explanation: 'Eye dominance is a neurological trait — one eye provides the primary input your brain uses to judge spatial position, and it is not always the same side as your dominant hand. Roughly one-third of people are cross-dominant, meaning their dominant eye is on the opposite side from their dominant hand, which significantly affects aiming if not accounted for. The hand-triangle test works because when you close your non-dominant eye, the object stays centered, but closing your dominant eye causes it to appear to jump.',
   },
   {
     id: 126,
@@ -1524,7 +1524,7 @@ export const questions: Question[] = [
     question: 'When aiming with open sights, the target should appear sharply in focus while the sights appear blurred.',
     options: ['True', 'False'],
     answer: 'False',
-    explanation: 'When using open sights, the front sight should be in sharp focus. The target and rear sight should appear blurred or fuzzy.',
+    explanation: 'The human eye cannot simultaneously focus on three different distances — the rear sight, front sight, and target — so you must choose which one to keep sharp. Proper technique requires focusing on the front sight because it is the most critical reference point for where your bullet will impact. Shooters who focus on the target instead tend to have inconsistent sight alignment without realizing it, which scatters their shots unpredictably.',
   },
   {
     id: 127,
@@ -1538,7 +1538,7 @@ export const questions: Question[] = [
       'The brightness of the sight dots',
     ],
     answer: 'The relationship between the aligned sights and the target',
-    explanation: 'Sight picture is the visual image you see when the aligned front and rear sights are placed on the target. Proper sight picture combines correct sight alignment with correct target placement.',
+    explanation: 'Sight picture is the complete visual package that determines where your shot will land — it combines sight alignment (the front sight centered in the rear sight notch with equal light on both sides and tops level) and the placement of those aligned sights on the target. Even perfect sight alignment will miss if the sights are pointed at the wrong spot, and correct target placement with misaligned sights will also miss. Mastering sight picture means training your eye to verify both elements simultaneously.',
   },
   {
     id: 128,
@@ -1552,7 +1552,7 @@ export const questions: Question[] = [
       'It has no real effect on shooting',
     ],
     answer: 'Holding your breath causes muscle tension and movement that affects aim',
-    explanation: 'Take a deep breath, then exhale before squeezing the trigger. This reduces muscle tension and body movement, which helps maintain steady aim.',
+    explanation: 'Your body naturally sways and trembles slightly with each breath cycle, and this movement is amplified through the length of the firearm to the muzzle. The technique is to take a normal breath, let about half of it out, and then pause your breathing during the brief moment you squeeze the trigger. This creates a natural respiratory pause where your body is most stable. Holding a full breath actually increases blood pressure and muscle tremor, making your aim worse, not better.',
   },
   {
     id: 129,
@@ -1561,7 +1561,7 @@ export const questions: Question[] = [
     question: 'Flinching is a common problem caused by anticipating recoil and can be corrected with dry-fire practice.',
     options: ['True', 'False'],
     answer: 'True',
-    explanation: 'Flinching is an involuntary reaction caused by anticipating recoil. Dry-fire practice (without live ammunition) is an effective way to diagnose and correct flinching.',
+    explanation: 'Flinching is your body\'s natural protective response to the anticipated explosion happening inches from your face — you involuntarily tense muscles, close your eyes, or push the gun forward right before the shot breaks. This unconscious movement typically pulls shots low and to the side. Dry-fire practice retrains your nervous system by letting you press the trigger hundreds of times without the blast and recoil, so you can isolate and eliminate the flinch response.',
   },
   {
     id: 130,
@@ -1575,7 +1575,7 @@ export const questions: Question[] = [
       'The mechanical tension of the trigger spring',
     ],
     answer: 'The smooth, steady pressure applied to the trigger straight to the rear without disturbing sight alignment',
-    explanation: 'Trigger control is applying smooth, steady pressure to the trigger straight to the rear without disturbing your sight alignment. It is one of the most important shooting fundamentals.',
+    explanation: 'Trigger control is widely considered the single most important marksmanship fundamental because even slight sideways pressure or jerking motion on the trigger will push your muzzle off target at the critical moment of firing. The goal is to press the trigger smoothly straight to the rear so that the sights never move from your intended point of impact — the shot should almost "surprise" you when it breaks. Jerking or slapping the trigger is the most common cause of missed shots.',
   },
   {
     id: 131,
@@ -1589,7 +1589,7 @@ export const questions: Question[] = [
       'Any part of any finger',
     ],
     answer: 'The pad (center) of the first joint of the index finger',
-    explanation: 'The pad or center of the first joint of the index finger should contact the trigger. This allows for straight rearward pressure and better trigger control.',
+    explanation: 'Using the pad of the index finger\'s first joint gives you the most control and the straightest rearward press on the trigger. If you use the tip of your finger, you tend to push the trigger sideways, pulling shots to the support side. If you wrap too much finger around the trigger (past the first joint), you tend to pull shots toward your dominant side. Proper finger placement also allows you to feel the trigger\'s stages — take-up, wall, and break.',
   },
   {
     id: 132,
@@ -1598,7 +1598,7 @@ export const questions: Question[] = [
     question: 'Practice and repetition are essential to developing good marksmanship skills.',
     options: ['True', 'False'],
     answer: 'True',
-    explanation: 'Practice is one of the three fundamentals of good marksmanship (along with proper sight adjustment and proper shooting technique). Regular, consistent practice is essential.',
+    explanation: 'Marksmanship is a perishable motor skill, meaning your accuracy will degrade without regular reinforcement, much like any athletic ability. The three pillars of good marksmanship are proper sight adjustment, correct shooting technique (stance, grip, sight picture, breath control, trigger control, follow through), and consistent practice to ingrain those techniques as muscle memory. Even experienced shooters benefit from regular dry-fire and live-fire sessions.',
   },
   // HANDGUN LAWS (FEDERAL)
   {
@@ -1613,7 +1613,7 @@ export const questions: Question[] = [
       'A mandatory firearms training requirement',
     ],
     answer: 'A national background check system for firearm purchases from licensed dealers',
-    explanation: 'The Brady Act established the National Instant Criminal Background Check System (NICS), requiring licensed dealers to conduct background checks before selling firearms.',
+    explanation: 'The Brady Act, signed into law in 1993 and named after James Brady who was shot during the 1981 assassination attempt on President Reagan, fundamentally changed how firearms are sold in America. It established the National Instant Criminal Background Check System (NICS), run by the FBI, which licensed dealers must query before completing any firearm sale. This system screens for criminal history, restraining orders, mental health adjudications, and other disqualifying factors.',
   },
   {
     id: 134,
@@ -1627,7 +1627,7 @@ export const questions: Question[] = [
       'A hunting license issued by the federal government',
     ],
     answer: 'A license required to manufacture, import, or deal in firearms commercially',
-    explanation: 'A Federal Firearms License (FFL) is required for individuals or businesses that want to manufacture, import, or deal in firearms commercially.',
+    explanation: 'The Federal Firearms License system, established under the Gun Control Act of 1968, ensures that anyone in the business of selling, manufacturing, or importing firearms is registered with and regulated by the Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF). FFL holders must maintain detailed records of every firearm transaction, conduct NICS background checks on buyers, and submit to periodic ATF inspections. This licensing framework is the backbone of federal firearms regulation.',
   },
   {
     id: 135,
@@ -1636,7 +1636,7 @@ export const questions: Question[] = [
     question: 'Under federal law, it is legal for a convicted felon to possess a firearm.',
     options: ['True', 'False'],
     answer: 'False',
-    explanation: 'Federal law prohibits convicted felons from possessing firearms or ammunition. This is one of the categories of prohibited persons under the Gun Control Act.',
+    explanation: 'The Gun Control Act of 1968, strengthened by subsequent legislation, permanently prohibits anyone convicted of a crime punishable by more than one year of imprisonment from possessing any firearm or ammunition. A violation carries up to 10 years in federal prison — even if the person has completed their original sentence and is living otherwise lawfully. The prohibition reflects the legislative judgment that individuals who have committed serious crimes pose an elevated risk of future violence.',
   },
   {
     id: 136,
@@ -1645,7 +1645,7 @@ export const questions: Question[] = [
     question: 'Under federal law, the minimum age to purchase a handgun from a licensed dealer is:',
     options: ['16 years old', '18 years old', '21 years old', '25 years old'],
     answer: '21 years old',
-    explanation: 'Federal law requires a person to be at least 21 years old to purchase a handgun from a licensed firearms dealer.',
+    explanation: 'The Gun Control Act of 1968 set the federal minimum age for purchasing a handgun from a licensed dealer (FFL) at 21 years old, while long guns like rifles and shotguns can be purchased at 18. This distinction exists because handguns are more concealable and statistically more likely to be used in crimes, so Congress imposed a higher age threshold. Note that private (non-dealer) sales of handguns have a federal minimum age of 18, but the licensed dealer standard of 21 is what matters for the Blue Card exam.',
   },
   {
     id: 137,
@@ -1659,7 +1659,7 @@ export const questions: Question[] = [
       'National Identification and Certification System',
     ],
     answer: 'National Instant Criminal Background Check System',
-    explanation: 'NICS stands for the National Instant Criminal Background Check System. It is maintained by the FBI and used to determine if a prospective buyer is eligible to purchase firearms.',
+    explanation: 'NICS — the National Instant Criminal Background Check System — was created by the Brady Handgun Violence Prevention Act of 1993 and is operated by the FBI. When you buy a firearm from a licensed dealer, the dealer contacts NICS to run a background check that screens for criminal history, restraining orders, mental health adjudications, and other disqualifying factors. The system is designed to return a "proceed," "denied," or "delayed" response, usually within minutes.',
   },
   {
     id: 138,
@@ -1668,7 +1668,7 @@ export const questions: Question[] = [
     question: 'A person subject to a domestic violence restraining order may legally purchase a firearm.',
     options: ['True', 'False'],
     answer: 'False',
-    explanation: 'Under federal law, a person subject to a qualifying domestic violence restraining order is prohibited from possessing or purchasing firearms.',
+    explanation: 'Under 18 U.S.C. § 922(g)(8), a person subject to a qualifying domestic violence restraining order is federally prohibited from purchasing or possessing firearms. Congress added this provision because research consistently shows that access to firearms dramatically increases the risk of lethal domestic violence. The restraining order must meet specific criteria — it must have been issued after a hearing and must restrain the person from harassing, stalking, or threatening an intimate partner or their child.',
   },
   {
     id: 139,
@@ -1682,7 +1682,7 @@ export const questions: Question[] = [
       'Registered in each state you pass through',
     ],
     answer: 'Unloaded and locked in a container separate from ammunition, not readily accessible',
-    explanation: 'The Firearm Owners Protection Act allows transport across state lines if the firearm is unloaded and locked in a container (such as the trunk), not readily accessible, and separate from ammunition.',
+    explanation: 'The Firearm Owners Protection Act (FOPA) of 1986, specifically its "safe passage" provision under 18 U.S.C. § 926A, allows gun owners to transport firearms through states where they might not otherwise be legal, as long as the firearm is unloaded, locked in a container like the trunk, and stored separately from ammunition. However, it only protects you while genuinely traveling through — stopping overnight or making extended stays in a restrictive state can void this protection.',
   },
   {
     id: 140,
@@ -1696,7 +1696,7 @@ export const questions: Question[] = [
       'Unlawful users of controlled substances',
     ],
     answer: 'Licensed security guards',
-    explanation: 'Licensed security guards are not prohibited from possessing firearms. Prohibited persons include convicted felons, fugitives, unlawful drug users, those dishonorably discharged, and others.',
+    explanation: 'Federal law under 18 U.S.C. § 922(g) lists specific categories of "prohibited persons" who cannot possess firearms, including convicted felons, fugitives, unlawful users of controlled substances, those adjudicated as mentally defective, and persons dishonorably discharged from the military. Licensed security guards are not on this list — in fact, their profession often requires them to carry firearms. This question tests whether you can distinguish between actual prohibited categories and professions that sound like they might be restricted.',
   },
   {
     id: 141,
@@ -1705,7 +1705,7 @@ export const questions: Question[] = [
     question: 'The Gun-Free School Zones Act makes it a federal offense to possess a firearm within 1,000 feet of a school.',
     options: ['True', 'False'],
     answer: 'True',
-    explanation: 'The Gun-Free School Zones Act makes it a federal crime to knowingly possess a firearm in a school zone (within 1,000 feet of school grounds), with certain exceptions such as having a state-issued permit.',
+    explanation: 'The Gun-Free School Zones Act of 1990 (18 U.S.C. § 922(q)) makes it a federal offense to knowingly possess a firearm within 1,000 feet of the grounds of any public or private K-12 school. There are important exceptions: individuals with a valid concealed carry permit issued by the state where the school is located are generally exempt, as are firearms that are unloaded and locked in a container in a vehicle. Violations carry serious federal penalties including up to five years imprisonment.',
   },
   // LOADING & UNLOADING
   {
@@ -1720,7 +1720,7 @@ export const questions: Question[] = [
       'Push the ejector rod',
     ],
     answer: 'Point the muzzle in a safe direction and keep your finger off the trigger',
-    explanation: 'Always point the muzzle in a safe direction and keep your finger off the trigger before unloading any firearm.',
+    explanation: 'The very first step when unloading any firearm — revolver, semi-automatic, or otherwise — is to point the muzzle in a safe direction and keep your finger off the trigger. This follows the foundational rules of firearm safety because if a negligent discharge occurs during the unloading process, a safely directed muzzle ensures no one gets hurt. Only after establishing a safe muzzle direction should you proceed to open the cylinder, push the ejector rod, and remove cartridges.',
   },
   {
     id: 143,
@@ -1734,7 +1734,7 @@ export const questions: Question[] = [
       'Pull the trigger to verify it is empty',
     ],
     answer: 'Pull the slide to the rear and visually and physically check the chamber',
-    explanation: 'After removing the magazine, pull the slide to the rear and both visually and physically check the chamber. A round may still be chambered even with the magazine removed.',
+    explanation: 'A semi-automatic pistol can retain a live round in the chamber even after the magazine is removed — this is one of the most common causes of negligent discharges. The mechanical reason is that the magazine feeds rounds into the chamber, but once a round is chambered it stays there independently of the magazine. That is why you must pull the slide fully to the rear and then both visually look into the chamber and physically insert a finger to confirm it is empty.',
   },
   {
     id: 144,
@@ -1743,7 +1743,7 @@ export const questions: Question[] = [
     question: 'When loading a revolver, you should point the muzzle upward to help cartridges slide into the chambers.',
     options: ['True', 'False'],
     answer: 'False',
-    explanation: 'When loading a revolver, keep the muzzle pointed in a safe direction (typically downward or downrange). Never point the muzzle upward or in an unsafe direction during loading.',
+    explanation: 'When loading a revolver, you should keep the muzzle pointed in a safe direction, which typically means downward or downrange — never upward toward yourself or others. Pointing the muzzle upward while loading would mean the firearm is aimed at your face or anyone standing nearby, creating a serious safety hazard if a round were to discharge during the loading process. Safety always takes priority over convenience.',
   },
   {
     id: 145,
@@ -1757,7 +1757,7 @@ export const questions: Question[] = [
       'Check the magazine to see if rounds are missing',
     ],
     answer: 'Look into the chamber to see if a round is present AND insert a finger to feel for a round',
-    explanation: 'Visually checking means looking into the open chamber to see if a cartridge is present. Physically checking means inserting a finger into the chamber to feel for a round, especially in low-light conditions.',
+    explanation: 'A visual check means looking directly into the open chamber or magazine well to see whether a cartridge is present. A physical check means inserting your pinky finger into the chamber to feel for a round, which is essential because in dim lighting or with dark-colored ammunition, your eyes alone might miss a chambered round. Together, these two checks provide redundant confirmation that the firearm is truly empty, which is why instructors emphasize doing both every single time.',
   },
   {
     id: 146,
@@ -1771,7 +1771,7 @@ export const questions: Question[] = [
       'The owner\'s manual',
     ],
     answer: 'All ammunition',
-    explanation: 'Before cleaning, make sure the gun is unloaded and remove ALL ammunition from the cleaning area to prevent accidentally loading the gun during or after cleaning.',
+    explanation: 'All ammunition must be removed from the cleaning area before you begin cleaning a firearm. During cleaning, you repeatedly cycle the action, insert tools into the barrel, and handle the gun extensively, which creates multiple opportunities to accidentally chamber a round if ammunition is nearby. There have been numerous documented negligent discharges that occurred during or immediately after cleaning because a round was inadvertently loaded. Keeping ammunition in a completely separate room eliminates this risk entirely.',
   },
   {
     id: 147,
@@ -1780,7 +1780,7 @@ export const questions: Question[] = [
     question: 'You should always assume a handgun is loaded until you have personally verified it is not.',
     options: ['True', 'False'],
     answer: 'True',
-    explanation: 'Always assume a handgun is loaded until you have personally verified it is unloaded by visually and physically checking the chamber and magazine well.',
+    explanation: 'This is the single most important rule of firearm safety — treat every gun as if it is loaded until you have personally verified otherwise through a visual and physical check of the chamber and magazine well. Countless accidents have happened when someone assumed a gun was unloaded based on someone else\'s word or their own faulty memory. Even if someone just handed you a firearm and told you it was clear, you must verify it yourself.',
   },
   {
     id: 148,
@@ -1794,7 +1794,7 @@ export const questions: Question[] = [
       'Pull back the hammer and twist',
     ],
     answer: 'Push or pull the cylinder release latch, then swing the cylinder out',
-    explanation: 'On most double-action revolvers, you push or pull the cylinder release latch (usually on the left side), then swing the cylinder out to the side for loading or unloading.',
+    explanation: 'Most modern double-action revolvers have a cylinder release latch, typically located on the left side of the frame behind the cylinder. When you push or pull this latch (the direction varies by manufacturer — Smith & Wesson pushes forward, Ruger pushes in, Colt pulls back), the cylinder is freed to swing out to the left side of the frame. This swing-out design gives you full access to all chambers for loading, unloading, and inspection.',
   },
   {
     id: 149,
@@ -1808,7 +1808,7 @@ export const questions: Question[] = [
       'Nothing — just reassemble immediately',
     ],
     answer: 'Ensure all parts are dry and free of excess solvent, then lightly oil moving parts',
-    explanation: 'After cleaning, make sure all parts are dry and free of excess solvent. Then lightly oil the moving parts according to the manufacturer\'s instructions before reassembling.',
+    explanation: 'After cleaning, excess solvent left on metal parts can actually attract dirt and grit, accelerating wear rather than preventing it. That is why you need to wipe all parts dry before lightly oiling the moving components — the slide rails, barrel hood, and any friction points specified in the owner\'s manual. Using too much oil is a common mistake; excess lubricant can migrate into the firing pin channel and cause light primer strikes. A thin, even film of quality gun oil on moving parts is all you need.',
   },
   {
     id: 150,
@@ -1822,7 +1822,7 @@ export const questions: Question[] = [
       'It engages the safety',
     ],
     answer: 'It locks the slide to the rear when the magazine is empty or for inspection',
-    explanation: 'The slide stop locks the slide in the open (rear) position when the last round has been fired or when the shooter manually locks it open for inspection or cleaning.',
+    explanation: 'The slide stop (also called the slide release) is a small lever on the frame of a semi-automatic pistol that serves a dual purpose. When the last round is fired, the follower in the empty magazine pushes up on the slide stop, which catches a notch in the slide and locks it open — this gives the shooter a visual and tactile indication that the gun is empty. You can also manually engage the slide stop to lock the slide open for chamber inspection or cleaning.',
   },
   // === ADDITIONAL QUESTIONS FROM STATUTE REVIEW (151–162) ===
   // RI FIREARMS LAW — statute-verified
@@ -1833,7 +1833,7 @@ export const questions: Question[] = [
     question: 'In Rhode Island, a Blue Card (pistol/revolver safety certificate) is required to purchase ammunition as well as handguns.',
     options: ['True', 'False'],
     answer: 'True',
-    explanation: 'RIGL § 11-47-64 requires purchasers of ammunition to possess a valid pistol/revolver safety certificate (Blue Card) or a RI hunter education course card. This requirement took effect after December 31, 2022.',
+    explanation: 'Under RIGL § 11-47-64, Rhode Island requires a valid Blue Card (pistol/revolver safety certificate) or a RI hunter education card to purchase not just handguns but also ammunition. This requirement, which took effect after December 31, 2022, ensures that anyone buying ammunition has demonstrated basic firearms safety knowledge. This is a frequently tested point because many students assume the Blue Card only applies to firearm purchases, not ammunition.',
   },
   {
     id: 152,
@@ -1842,7 +1842,7 @@ export const questions: Question[] = [
     question: 'In Rhode Island, the minimum age to purchase ammunition is:',
     options: ['16 years old', '18 years old', '21 years old', '25 years old'],
     answer: '21 years old',
-    explanation: 'RIGL § 11-47-64 prohibits the sale of ammunition to anyone under 21 years of age.',
+    explanation: 'RIGL § 11-47-64 sets the minimum age to purchase ammunition in Rhode Island at 21 years old, matching the federal minimum age for handgun purchases from licensed dealers. This law exists to prevent younger individuals from easily obtaining ammunition without the maturity and safety training the state considers necessary. The age requirement applies regardless of the type of ammunition — handgun, rifle, or shotgun rounds are all covered.',
   },
   {
     id: 153,
@@ -1851,7 +1851,7 @@ export const questions: Question[] = [
     question: 'In Rhode Island, licensed retail dealers must provide a trigger lock or other safety device with every firearm sold.',
     options: ['True', 'False'],
     answer: 'True',
-    explanation: 'RIGL § 11-47-60.3 requires that no licensed retail dealer shall deliver any pistol, rifle, or shotgun to a purchaser without providing a trigger lock or other safety device designed to prevent unauthorized use.',
+    explanation: 'Under RIGL § 11-47-60.3, every licensed retail firearms dealer in Rhode Island must include a trigger lock or equivalent safety device with every pistol, rifle, or shotgun sold. The legislature enacted this requirement to promote safe storage from the moment of purchase, reducing the risk that a newly purchased firearm could be accessed by unauthorized users — particularly children — before the owner has a chance to secure it properly.',
   },
   {
     id: 154,
@@ -1865,7 +1865,7 @@ export const questions: Question[] = [
       'A combination of local and county ordinances',
     ],
     answer: 'The state exclusively — local municipalities cannot create their own firearms laws',
-    explanation: 'RIGL § 11-47-58 establishes state preemption: the regulation of firearms ownership, possession, transportation, carrying, transfer, sale, purchase, and licensing rests solely with the state. Local municipalities cannot enact their own firearms laws.',
+    explanation: 'RIGL § 11-47-58 establishes "state preemption" of firearms regulation, meaning that only the Rhode Island General Assembly can pass laws governing firearms ownership, possession, transportation, carrying, transfer, sale, purchase, and licensing. Cities and towns cannot create their own local firearms ordinances. This exists to prevent a confusing patchwork of different rules across the state\'s 39 municipalities, so gun owners can know one consistent set of laws applies everywhere in Rhode Island.',
   },
   {
     id: 155,
@@ -1874,7 +1874,7 @@ export const questions: Question[] = [
     question: 'In Rhode Island, what is the minimum age to carry mace or pepper spray for personal protection?',
     options: ['15 years old', '18 years old', '21 years old', 'No minimum age'],
     answer: '18 years old',
-    explanation: 'RIGL § 11-47-57 allows any person 18 years of age or older to carry non-lethal noxious substances such as mace or pepper spray for personal protection. Misuse carries a fine of $25.',
+    explanation: 'Under RIGL § 11-47-57, any person who is 18 years of age or older may carry mace, pepper spray, or similar non-lethal noxious substances for personal protection without a permit. The legislature set the age lower than the 21-year minimum for handgun purchases because these are non-lethal self-defense tools with far less potential for fatal harm. However, misuse of these substances — such as spraying someone as a prank rather than in self-defense — carries a fine of $25.',
   },
   {
     id: 156,
@@ -1888,7 +1888,7 @@ export const questions: Question[] = [
       'A firearm is stored without a trigger lock',
     ],
     answer: 'A person stores a firearm where they know or should know a child or prohibited person could access it, and that person gains access',
-    explanation: 'RIGL § 11-47-60.1(c) defines criminal storage in the second degree. A "child" is any person under 18. The penalty is up to 1 year imprisonment and/or a $1,000 fine.',
+    explanation: 'Under RIGL § 11-47-60.1(c), criminal storage in the second degree occurs when a firearm owner stores a firearm in a location where they know or reasonably should know that a child (any person under 18) or a prohibited person could gain access to it, and that person actually does gain access. This law holds gun owners accountable for negligent storage because unsecured firearms in homes are a leading cause of accidental shootings involving children. The penalty is up to 1 year imprisonment, a fine up to $1,000, or both.',
   },
   {
     id: 157,
@@ -1897,7 +1897,7 @@ export const questions: Question[] = [
     question: 'In Rhode Island, the prohibition on firearms possession on school grounds applies to colleges and universities.',
     options: ['True', 'False'],
     answer: 'False',
-    explanation: 'RIGL § 11-47-60(c) explicitly excludes colleges and universities from the school grounds firearms prohibition. The law applies to public and private elementary and secondary schools.',
+    explanation: 'RIGL § 11-47-60(c) specifically excludes colleges and universities from the school grounds firearms prohibition — the ban applies only to public and private elementary and secondary schools (K-12). The legislature drew this distinction because college students are adults, and campuses often have their own police departments. However, individual colleges and universities in Rhode Island may still prohibit firearms on their property through their own institutional policies.',
   },
   {
     id: 158,
@@ -1911,7 +1911,7 @@ export const questions: Question[] = [
       'A written warning',
     ],
     answer: 'Up to $5,000 fine and/or 5 years imprisonment for a first offense',
-    explanation: 'RIGL § 11-47-23 prohibits providing false information when purchasing firearms or applying for licenses, including straw purchases. First offense: up to $5,000 fine and/or 5 years. Subsequent offenses: up to $10,000 and/or 10 years.',
+    explanation: 'RIGL § 11-47-23 imposes severe penalties for providing false information when purchasing a firearm or applying for any firearms license, including making a "straw purchase" (buying a firearm on behalf of someone who cannot legally buy one themselves). A first offense carries up to a $5,000 fine and/or 5 years imprisonment, while subsequent offenses jump to $10,000 and/or 10 years. These harsh penalties reflect how seriously Rhode Island treats fraud in the firearms acquisition process.',
   },
   {
     id: 159,
@@ -1920,7 +1920,7 @@ export const questions: Question[] = [
     question: 'In Rhode Island, it is illegal to manufacture, sell, or possess a silencer.',
     options: ['True', 'False'],
     answer: 'True',
-    explanation: 'RIGL § 11-47-20 prohibits the manufacture, sale, purchase, or possession of silencers. Exceptions exist for law enforcement tactical teams. The penalty is imprisonment of not less than 1 year and 1 day.',
+    explanation: 'RIGL § 11-47-20 makes it illegal to manufacture, sell, purchase, or possess a firearm silencer (also called a suppressor) in Rhode Island. This is notable because many other states do allow suppressor ownership under federal NFA regulations, but Rhode Island is one of a handful of states that impose a blanket ban. The only exception is for law enforcement tactical teams. The penalty is imprisonment of not less than 1 year and 1 day, classifying it as a felony.',
   },
   {
     id: 160,
@@ -1929,7 +1929,7 @@ export const questions: Question[] = [
     question: 'In Rhode Island, armor-piercing ammunition designed for use in pistols is prohibited.',
     options: ['True', 'False'],
     answer: 'True',
-    explanation: 'RIGL § 11-47-20.1 prohibits armor-piercing ammunition (such as those with steel inner cores or truncated cones) designed for pistols. The penalty is up to 3 years imprisonment and/or a $5,000 fine.',
+    explanation: 'Under RIGL § 11-47-20.1, Rhode Island prohibits armor-piercing ammunition specifically designed for use in pistols, including rounds with steel inner cores, truncated cone projectiles, or other designs intended to penetrate body armor. This law exists to protect law enforcement officers, who are most commonly threatened by handgun rounds and rely on body armor for protection. The penalty is up to 3 years imprisonment and/or a $5,000 fine.',
   },
   {
     id: 161,
@@ -1938,7 +1938,7 @@ export const questions: Question[] = [
     question: 'In Rhode Island, lost or stolen firearms must be reported within:',
     options: ['12 hours', '24 hours', '48 hours', '7 days'],
     answer: '24 hours',
-    explanation: 'RIGL § 11-47-48.1 requires lost or stolen firearms to be reported within 24 hours of discovery. The penalty for failure to report is a fine of $50 to $100.',
+    explanation: 'RIGL § 11-47-48.1 requires that any lost or stolen firearm be reported to local law enforcement within 24 hours of discovering the loss or theft. This reporting requirement exists so police can enter the firearm\'s serial number into national databases, helping to trace the weapon if it is used in a crime and protecting the original owner from being wrongly connected to criminal activity. The penalty for failing to report is a fine of $50 to $100.',
   },
   {
     id: 162,
@@ -1947,6 +1947,6 @@ export const questions: Question[] = [
     question: 'In Rhode Island, it is illegal to discharge a firearm across a public highway.',
     options: ['True', 'False'],
     answer: 'True',
-    explanation: 'RIGL § 11-47-49 prohibits discharging firearms across any public road, street, square, or lane. The penalty is a fine up to $500, up to 1 year imprisonment, or both.',
+    explanation: 'RIGL § 11-47-49 prohibits discharging a firearm across any public road, street, highway, square, or lane in Rhode Island. This law exists because a bullet crossing a public roadway poses an obvious danger to motorists, pedestrians, cyclists, and anyone using that right-of-way. The penalty includes a fine up to $500, up to 1 year imprisonment, or both. This is particularly important for hunters and target shooters in rural areas to be aware of.',
   },
 ];

@@ -39,13 +39,13 @@ export default function Home({ setView }: Props) {
       {/* Stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
         {[
-          { label: 'Total Questions', value: questions.length, color: 'blue' },
-          { label: 'Multiple Choice', value: mcCount, color: 'purple' },
-          { label: 'True / False', value: tfCount, color: 'emerald' },
-          { label: 'Topic Areas', value: CATEGORIES.length, color: 'amber' },
-        ].map(({ label, value, color }) => (
+          { label: 'Total Questions', value: questions.length, cls: 'text-blue-500' },
+          { label: 'Multiple Choice', value: mcCount, cls: 'text-purple-500' },
+          { label: 'True / False', value: tfCount, cls: 'text-emerald-500' },
+          { label: 'Topic Areas', value: CATEGORIES.length, cls: 'text-amber-500' },
+        ].map(({ label, value, cls }) => (
           <div key={label} className="dark:bg-slate-800/50 bg-white rounded-xl p-4 text-center dark:border-slate-700/50 border-slate-200 border transition-colors">
-            <div className={`text-3xl font-black text-${color}-500 mb-0.5`}>{value}</div>
+            <div className={`text-3xl font-black ${cls} mb-0.5`}>{value}</div>
             <div className="dark:text-slate-400 text-slate-500 text-xs font-medium">{label}</div>
           </div>
         ))}

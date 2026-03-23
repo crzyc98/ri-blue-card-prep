@@ -1,10 +1,17 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ri-blue-card-study</title>
+    <meta name="theme-color" content="#0b0f1a" />
+    <title>RI Blue Card Study — Exam Prep</title>
+    <script>
+      // Apply saved theme before render to prevent flash
+      if (localStorage.getItem('theme') === 'light') {
+        document.documentElement.classList.remove('dark');
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>

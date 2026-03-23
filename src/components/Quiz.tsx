@@ -15,6 +15,7 @@ type Filter = 'all' | string;
 
 export default function Quiz() {
   const [filter, setFilter] = useState<Filter>('all');
+  const [numQuestions, setNumQuestions] = useState(50);
   const [quizStarted, setQuizStarted] = useState(false);
   const [quizQuestions, setQuizQuestions] = useState<Question[]>([]);
   const [currentIdx, setCurrentIdx] = useState(0);
@@ -28,7 +29,7 @@ export default function Quiz() {
   }, [filter]);
 
   function startQuiz() {
-    const pool = shuffle(filteredPool).slice(0, Math.min(50, filteredPool.length));
+    const pool = shuffle(filteredPool).slice(0, Math.min(numQuestions, filteredPool.length));
     setQuizQuestions(pool);
     setCurrentIdx(0);
     setSelected(null);
@@ -135,8 +136,23 @@ export default function Quiz() {
               ))}
             </div>
           </div>
+          <div>
+            <label className="block text-xs font-semibold dark:text-slate-300 text-slate-600 mb-3 uppercase tracking-wider">Number of Questions</label>
+            <div className="flex flex-wrap gap-2">
+              {[10, 20, 30, 50].map(n => (
+                <button key={n} onClick={() => setNumQuestions(n)}
+                  className={`px-4 py-1.5 rounded-lg text-xs font-medium border transition-all ${
+                    numQuestions === n
+                      ? 'bg-blue-500 text-white border-blue-500 shadow-lg shadow-blue-500/25'
+                      : 'dark:border-slate-600 border-slate-300 dark:text-slate-400 text-slate-500 dark:hover:border-slate-500 hover:border-slate-400'
+                  }`}>
+                  {n}
+                </button>
+              ))}
+            </div>
+          </div>
           <div className="text-xs dark:text-slate-500 text-slate-400 dark:bg-slate-700/50 bg-slate-50 rounded-lg p-3">
-            <strong className="dark:text-slate-300 text-slate-600">{filteredPool.length}</strong> questions available. Quiz will use up to <strong className="dark:text-slate-300 text-slate-600">50</strong>.
+            <strong className="dark:text-slate-300 text-slate-600">{filteredPool.length}</strong> questions available. Quiz will use <strong className="dark:text-slate-300 text-slate-600">{Math.min(numQuestions, filteredPool.length)}</strong>.
           </div>
           <button onClick={startQuiz} disabled={filteredPool.length === 0}
             className="w-full bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-xl font-bold transition-all disabled:opacity-40 shadow-lg shadow-blue-500/25 hover:shadow-xl hover:shadow-blue-500/30">
